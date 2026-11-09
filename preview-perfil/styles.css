@@ -526,6 +526,17 @@ code { font-family: "IBM Plex Mono", monospace; font-size: 0.85em; background: #
 .autoria-name i { font-style: normal; color: var(--mute); margin: 0 2px; }
 .autoria-name span { color: var(--led); }
 .autoria-name:hover span { text-decoration: underline; text-underline-offset: 4px; }
+
+.autoria-verified {
+  display: inline-block;
+  width: 0.78em;
+  height: 0.78em;
+  margin: 0 0.1em 0 0.22em;
+  vertical-align: -0.06em;
+  color: #1D9BF0;
+  flex: none;
+}
+.autoria-verified path { fill: currentColor; }
 .autoria-line {
   margin: 8px 0 0;
   font-size: 15px;
