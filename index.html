@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>STASH / 67 · 11 nov 2026</title>
+  <title>STASH / 68 · 12 nov 2026</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
@@ -12,12 +12,13 @@
 <body>
   <div class="shell">
     <div class="hud">
-      <span>GRU / <b>qua</b></span>
+      <span>GRU / <b>qui</b></span>
       <span>signal · stash</span>
       <label class="ed-nav">
         <span>ed.</span>
         <select data-editions aria-label="Edição">
-            <option value="2026-11-11" selected>67 · 11 nov 2026</option>
+            <option value="2026-11-12" selected>68 · 12 nov 2026</option>
+            <option value="2026-11-11">67 · 11 nov 2026</option>
             <option value="2026-11-10">66 · 10 nov 2026</option>
             <option value="2026-11-09">65 · 09 nov 2026</option>
             <option value="2026-11-08">64 · 08 nov 2026</option>
@@ -88,17 +89,17 @@
       </label>
       <a class="arquivo" href="./arquivo.html">arquivo</a>
       <a class="arquivo" href="./assinar/">assinar</a>
-      <span>2026.11.11 · 67</span>
+      <span>2026.11.12 · 68</span>
     </div>
 
     <header class="mast">
-      <div class="issue">67</div>
+      <div class="issue">68</div>
       <div class="wordmark">Stash</div>
       <div class="meta">Clovis Teixeira<br>bookmarks do X</div>
     </header>
     <section class="autoria" aria-label="Sobre o STASH">
       <a class="autoria-photo" href="https://x.com/clovistx" target="_blank" rel="noopener" aria-label="Perfil de @clovistx no X">
-        <img src="2026-11-11/img/clovis.jpg" width="96" height="96" alt="Foto de perfil de Clovis Teixeira (@clovistx) no X" />
+        <img src="2026-11-12/img/clovis.jpg" width="96" height="96" alt="Foto de perfil de Clovis Teixeira (@clovistx) no X" />
       </a>
       <div class="autoria-body">
         <span class="autoria-kicker">curadoria · conteúdo do X</span>
@@ -116,35 +117,35 @@
         <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="5" width="4" height="14" rx="1"/><rect x="13.5" y="5" width="4" height="14" rx="1"/></svg>
       </button>
       <div class="listen-text">
-        <span class="listen-kicker"><i class="listen-dot" aria-hidden="true"></i><span data-listen-state>Ouça a edição</span> · 1:36</span>
+        <span class="listen-kicker"><i class="listen-dot" aria-hidden="true"></i><span data-listen-state>Ouça a edição</span> · 1:20</span>
         <span class="listen-title">Um papo rápido sobre as notícias de hoje</span>
       </div>
-      <div class="listen-wave" role="slider" tabindex="0" aria-label="Posição do áudio" aria-valuemin="0" aria-valuemax="96" aria-valuenow="0" aria-valuetext="0:00 de 1:36" data-listen-wave>
+      <div class="listen-wave" role="slider" tabindex="0" aria-label="Posição do áudio" aria-valuemin="0" aria-valuemax="80" aria-valuenow="0" aria-valuetext="0:00 de 1:20" data-listen-wave>
         <div class="bars" aria-hidden="true"></div>
         <div class="bars played" aria-hidden="true"></div>
       </div>
-      <div class="listen-time"><span data-listen-cur>0:00</span><span class="sep">/</span><span data-listen-dur>1:36</span></div>
-      <audio preload="metadata" src="2026-11-11/audio/stash-colega.mp3" data-listen-audio></audio>
+      <div class="listen-time"><span data-listen-cur>0:00</span><span class="sep">/</span><span data-listen-dur>1:20</span></div>
+      <audio preload="metadata" src="2026-11-12/audio/stash-colega.mp3" data-listen-audio></audio>
     </section>
     <section class="lede">
       <article class="lead">
-        <div class="kicker">Browser Use 1.0.0 · open source · @browser_use</div>
-        <h2>O Browser Use apagou 80% do próprio código, e o agente ficou mais esperto, mais barato e mais rápido</h2>
-        <p class="deck">Na versão 1.0, o agente deixa de escolher ações num menu pronto e passa a escrever Python num REPL persistente, direto no Chrome DevTools Protocol. Com os mesmos modelos, a equipe mede até 33 pontos a mais de score, tarefas de 2,7 a 5,2 vezes mais baratas e de duas a três vezes mais rápidas.</p>
-        <p class="byline">Segunda à noite · @browser_use · o anúncio passou de 175 mil impressões e 1.100 bookmarks</p>
-        <p>A release, publicada por @gregpr07 no GitHub, remove 136.866 linhas da biblioteca. Saíram o DOM serializer, o action schema e toda a camada que ficava entre o modelo e o navegador: agora o modelo escreve uma célula, como new_tab(url) ou bu.click(41), o REPL executa no Chrome via CDP e devolve a saída, e o ciclo se repete até o finish(result). Segundo a equipe, é o mesmo loop que já rodava no Browser Use Cloud, agora aberto para qualquer um.</p>
-        <p>No gráfico da release, o Luna high sobe de 41,1 para 73,9 pontos, o Terra medium de 56,9 para 76,0 e o Sol medium de 64,2 para 78,3; com o Sol, o custo por tarefa cai de US$ 3,56 para US$ 0,68, e o tempo, de 20,5 para 6,4 minutos. No BU Bench v2, com 60 tarefas repetidas três vezes, a própria equipe faz uma ressalva honesta: contra o Browser Use Pi, a qualidade empatou estatisticamente, e o ganho real ficou no custo e no tempo de cada tarefa.</p>
-        <p>Quem vem da 0.x precisa ler o MIGRATING.md antes de atualizar, porque os defaults mudaram. Browser() agora abre um browser na nuvem do Browser Use, o modelo padrão passa a ser o bu-fast no gateway da empresa e uma única BROWSER_USE_API_KEY substitui as chaves de cada provider; para rodar local, o caminho é Browser('chromium'), e para usar o Chrome já aberto, Browser('chrome'). A versão ainda traz typed results, sensitive_data com redação de segredos, domain restrictions e um MCP server via browser-use --cli-mcp, e o time recomenda fixar a versão com ==, porque promete lançar rápido daqui em diante.</p>
-        <p class="cta"><a href="https://x.com/browser_use/status/2119983662162952278">post do @browser_use</a> · <a href="https://github.com/browser-use/browser-use/releases/tag/1.0.0">release 1.0.0 no GitHub</a> · <a href="https://github.com/browser-use/browser-use/blob/main/MIGRATING.md">MIGRATING.md</a></p>
+        <div class="kicker">THX-02 · open source · @reversedoofz</div>
+        <h2>O THX-02 é um modelo open source que só faz uma coisa, decidir, e responde em 50 milissegundos</h2>
+        <p class="deck">Você entrega um estado, como uma mensagem, um ticket, um JSON ou até quatro imagens, junto com perguntas tipadas, e o modelo devolve uma resposta com a probabilidade de cada opção. Com 4,5 bilhões de parâmetros e licença Apache-2.0, ele lidera o Decision Index 0.3 na tabela da HAL-X, à frente de um modelo de 31 bilhões.</p>
+        <p class="byline">Post de 5 de novembro · @reversedoofz · passou de 750 mil impressões e 1.700 bookmarks</p>
+        <p>A ideia é tratar as pequenas decisões de um produto como uma chamada de API: qual time cuida de um ticket, se um pagamento parece fraude, qual botão um agente deve apertar. As opções vão na própria requisição, em três tipos de pergunta (choice com até 255 opções, noul para sim ou não e score para escalas), então uma categoria nova não exige retreinar nada. Como o modelo só pontua as opções recebidas, ele não inventa resposta fora da lista, e cada resultado vem como uma distribuição de probabilidade que dá para usar como threshold.</p>
+        <p>O salto em relação ao THX-01, de 0,3 bilhão de parâmetros, é enorme: 65,06 contra 11,30 no mesmo índice. A mediana fica em 50 ms por requisição no modo direto e em 79 ms com o thinking em auto, quando um adapter de 60 milhões de parâmetros escreve um pensamento curto antes de decidir; numa RTX 4090, a equipe mede 129 requisições por segundo. A própria model card avisa que os números saem de uma amostra de 6.018 requisições do conjunto público e que, num domínio muito diferente, vale conferir algumas centenas de exemplos rotulados antes de agir só pela confiança.</p>
+        <p>Para experimentar, há uma API gratuita sem chave, limitada a 60 decisões por minuto por IP, e o pacote thx02 no PyPI, um cliente sem dependências que roda até no Termux do Android. Quem preferir os pesos encontra o modelo no Hugging Face e no ModelScope e roda com pip install "thx02[local]"; sem GPU, ele responde direto, sem a etapa de thinking.</p>
+        <p class="cta"><a href="https://x.com/reversedoofz/status/2118376454564299123">post do @reversedoofz</a> · <a href="https://huggingface.co/HAL-X-AI/THX-02">THX-02 no Hugging Face</a> · <a href="https://api.hal-x.ai/docs/thx-02/">documentação da API</a></p>
       </article>
       <div>
         <figure>
-          <img src="2026-11-11/img/capa-browseruse-bench.jpg" alt="Release browser-use 1.0 no GitHub com três gráficos de barras comparando a versão 0.x e a 1.0 nos modelos Luna high, Terra medium e Sol medium: score maior, custo por tarefa menor e minutos por tarefa menores" />
-          <figcaption>Nos três modelos testados, a 1.0 ganha em score, custo e tempo; o maior salto de preço aparece no Sol medium, 5,2 vezes mais barato.</figcaption>
+          <img src="2026-11-12/img/capa-thx-indice.jpg" alt="Gráfico de barras do Decision Index 0.3: THX-02 com thinking em 65,06, THX-02 direto em 63,83, Sieve-31B em 62,52, Verdin-4B em 58,29 e outros modelos abaixo, até o THX-01 com 11,30" />
+          <figcaption>No Decision Index 0.3, o THX-02 com thinking marca 65,06; as barras hachuradas são números publicados pelos autores de cada modelo no conjunto público completo.</figcaption>
         </figure>
         <figure>
-          <img src="2026-11-11/img/capa-browseruse-loop.jpg" alt="Trecho da release com o título menos 136.866 linhas, 80% da biblioteca apagada, e o diagrama do loop: task, o modelo escreve uma célula, o REPL roda no Chrome via CDP e devolve a saída, finish(result)" />
-          <figcaption>O loop inteiro da 1.0 cabe em quatro passos: tarefa, célula de Python, execução no Chrome via CDP e resultado.</figcaption>
+          <img src="2026-11-12/img/capa-thx-tickets.jpg" alt="Painel da demo de classificação ao vivo da HAL-X com mensagens de clientes em várias línguas distribuídas entre billing, technical, shipping, sales, security, legal e uma em human review, com a frase every message, every language, to the right team" />
+          <figcaption>Na demo da HAL-X, 24 mensagens em 16 línguas foram roteadas num único batch de 641 ms; a única abaixo de 0,60 de confiança foi para revisão humana.</figcaption>
         </figure>
       </div>
     </section>
@@ -152,58 +153,59 @@
     <div class="sec">
       <span class="idx">02</span>
       <h2>Radar</h2>
-      <span class="kicker">uma janela de avião, do mapa de assentos ao pôr do sol</span>
+      <span class="kicker">duas demos do THX-02, da tela do navegador à esteira de ovos</span>
     </div>
     <div class="classifieds radar2">
       <div class="ad">
-        <div class="kicker">design de produto · @RaminNasibov</div>
-        <figure><img style="object-position: center center" src="2026-11-11/img/radar-janela-assentos.jpg" alt="Três telas do conceito de app de voo de Barcelona para Paris: o mapa de assentos com uma poltrona de janela selecionada, a poltrona 11A sem janela, só com a parede, e a vista de Barcelona e do mar pela janela da 23A às 16:05" /></figure>
-        <h3>O designer do app de cinema agora mostra a vista da janela do avião antes da reserva</h3>
-        <p>Ramin Nasibov (@RaminNasibov), que ontem apareceu aqui com o app que mostra a tela vista de cada poltrona do cinema, levou a ideia para o avião. No conceito, num voo de Barcelona para Paris, você toca numa poltrona de janela no mapa e vê exatamente o que vai enxergar dali; a 11A, vendida como janela por 9 euros, revela só a parede entre duas janelas.</p>
-        <p>O post passou de 140 mil impressões e 700 bookmarks em pouco mais de um dia. É o tipo de detalhe que transforma a venda de assento, quase sempre irritante, em algo que o passageiro paga com gosto.</p>
-        <p class="cta"><a href="https://x.com/RaminNasibov/status/2119945327595716717">post do @RaminNasibov</a></p>
+        <div class="kicker">agente de tela · HAL-X</div>
+        <figure><img style="object-position: center center" src="2026-11-12/img/radar-thx-voo.jpg" alt="Site de teste SkyLine com voos de Baku para Istambul em 24 de outubro, cada botão Select numerado, e ao lado o painel do THX-02 mostrando a probabilidade 0,96 para o próximo clique em Search flights" /></figure>
+        <h3>Só com prints de tela e botões numerados, o THX-02 reservou um voo em seis cliques</h3>
+        <p>Na demo, a meta era reservar o voo mais barato de Baku para Istambul em 24 de outubro, saindo antes do meio-dia, para dois adultos. A cada passo, o modelo vê um screenshot de um site de mentira com botões numerados e escolhe o próximo clique em cerca de 170 ms.</p>
+        <p>Na página de resultados, ele ativa o thinking, compara os voos da manhã e fica com o das 9h15, a 142 euros por adulto, em vez do das 6h40, a 189. Não há script nem treino para a tarefa, só perguntas do tipo choice em que os botões são as opções.</p>
+        <p class="cta"><a href="https://huggingface.co/HAL-X-AI/THX-02#screen-agent">demo do agente de tela</a></p>
       </div>
       <div class="ad">
-        <div class="kicker">linha do tempo do voo · @RaminNasibov</div>
-        <figure><img style="object-position: center center" src="2026-11-11/img/radar-janela-sol.jpg" alt="Três telas da poltrona 23A com um slider do voo: os Pirineus à esquerda às 16:41, o pôr do sol bem na janela às 17:15 com a sugestão de baixar a persiana e as luzes de Paris com a Torre Eiffel às 17:45" /></figure>
-        <h3>Um slider percorre o voo inteiro e mostra o que passa pela janela em cada horário</h3>
-        <p>Na poltrona 23A, uma barra embaixo da janela vai da decolagem ao pouso: às 16:05 aparece Barcelona e o mar, às 16:41 os Pirineus, às 17:15 o pôr do sol bem na janela, com aviso de sol forte entre 16:55 e 17:20 e a sugestão de baixar a persiana, e às 17:45 as luzes de Paris com a Torre Eiffel à vista.</p>
-        <p>Ainda é só um conceito, sem companhia aérea por trás, mas os dados para isso existem: rota, horário e posição do sol bastam para prever de que lado a luz vai bater. A lição para quem desenha produto é mostrar a consequência de uma escolha antes da compra, e não só o preço.</p>
-        <p class="cta"><a href="https://x.com/RaminNasibov/status/2119945327595716717">vídeo do conceito no X</a></p>
+        <div class="kicker">controle de qualidade · HAL-X</div>
+        <figure><img style="object-position: center center" src="2026-11-12/img/radar-thx-ovos.jpg" alt="Esteira com ovos marrons, cada um dentro de uma caixa colorida com o rótulo do THX-02: clean em verde, dirty em laranja e um cracked 96% em vermelho" /></figure>
+        <h3>Numa esteira, ele decide se cada ovo está limpo, sujo ou rachado</h3>
+        <p>Um detector open-vocabulary desenha as caixas e o THX-02 classifica cada ovo, 16 por frame, numa única RTX 4090. A HAL-X avisa que o detector só entra na demo e que as imagens foram geradas por IA, então o que vale aqui é o padrão, não o vídeo.</p>
+        <p>É o mesmo truque dos tickets aplicado a imagens: as categorias vão na pergunta e cada resposta sai com uma porcentagem. Dá para imaginar o uso em qualquer checagem visual repetitiva, da foto de entrega ao comprovante escaneado.</p>
+        <p class="cta"><a href="https://huggingface.co/HAL-X-AI/THX-02">model card com as demos</a></p>
       </div>
     </div>
 
     <div class="sec">
       <span class="idx">03</span>
       <h2>Hora do Hands-on</h2>
-      <span class="kicker">três testes de dez minutos · pra quarta</span>
+      <span class="kicker">três testes de dez minutos · pra quinta</span>
     </div>
 
     <div class="classifieds handson">
       <div class="ad">
-        <div class="kicker">teste 1 · Browser Use 1.0</div>
-        <h3>Rode o agente de uma linha que abre a release</h3>
-        <p>Instale com uv add 'browser-use==1.0.0', gere uma chave em cloud.browser-use.com e rode o exemplo oficial, que pede ao agente o número de stars do próprio repo. Depois olhe o result.cost_usd e quantos passos ele levou: é a forma mais rápida de sentir na prática o que o loop em Python mudou.</p>
+        <div class="kicker">teste 1 · API grátis</div>
+        <h3>Rode a sua primeira decisão sem nem pegar chave</h3>
+        <p>Instale com pip install thx02 e chame o comando thx02 com uma mensagem real de cliente, uma pergunta --choice com dois ou três times e uma --yesno sobre reembolso. O plano gratuito aceita 60 decisões por minuto por IP, o que basta para sentir a latência e o formato das probabilidades.</p>
       </div>
       <div class="ad">
-        <div class="kicker">teste 2 · browser local</div>
-        <h3>Troque o browser da nuvem pelo Chromium da sua máquina</h3>
-        <p>Passe Browser('chromium') e dê ao agente uma tarefa num app que roda em localhost, que o browser da nuvem não alcança. Repita a mesma tarefa com o default e compare tempo e custo; se for migrar um projeto da 0.x, aproveite e confira no MIGRATING.md quais opções antigas agora disparam TypeError.</p>
+        <div class="kicker">teste 2 · threshold</div>
+        <h3>Monte um roteador com fila de revisão humana</h3>
+        <p>Separe vinte mensagens antigas do seu suporte, rode todas num único batch e marque as que ficaram com a opção principal abaixo de 0,60. Compare com o que o seu time fez na época: é um jeito rápido de descobrir onde o threshold faz sentido antes de automatizar qualquer coisa.</p>
       </div>
       <div class="ad">
-        <div class="kicker">teste 3 · design</div>
-        <h3>Desenhe a prévia de uma escolha que hoje o seu usuário faz às cegas</h3>
-        <p>Escolha uma tela do seu produto em que alguém decide sem ver o resultado, como plano, horário, tamanho ou lugar, e esboce em dez minutos uma prévia do que acontece depois da escolha. É o mesmo truque do Ramin com a janela do avião, e costuma render mais conversão do que qualquer desconto.</p>
+        <div class="kicker">teste 3 · imagem</div>
+        <h3>Faça uma pergunta sobre um print ou um gráfico</h3>
+        <p>Mande o screenshot de um dashboard com uma pergunta do tipo choice e think=True, pedindo, por exemplo, em que mês a métrica caiu mais. Depois rode de novo com think=False e veja se a resposta e a confiança mudam.</p>
       </div>
     </div>
 
     <footer>
-      <span>ed. 67 · 11 nov 2026 · 2 bookmarks</span>
+      <span>ed. 68 · 12 nov 2026 · 1 bookmark</span>
       <a class="badge-x" href="https://x.com/clovistx" target="_blank" rel="noopener"><i aria-hidden="true"></i>bookmarks de <b>@clovistx</b></a>
       <label class="ed-nav">
         <span>ed.</span>
         <select data-editions aria-label="Edição">
-            <option value="2026-11-11" selected>67 · 11 nov 2026</option>
+            <option value="2026-11-12" selected>68 · 12 nov 2026</option>
+            <option value="2026-11-11">67 · 11 nov 2026</option>
             <option value="2026-11-10">66 · 10 nov 2026</option>
             <option value="2026-11-09">65 · 09 nov 2026</option>
             <option value="2026-11-08">64 · 08 nov 2026</option>
@@ -286,11 +288,11 @@
     var cur = root.querySelector("[data-listen-cur]");
     var dur = root.querySelector("[data-listen-dur]");
     var state = root.querySelector("[data-listen-state]");
-    var peaks = [100,69,55,56,65,85,57,66,60,51,61,53,56,51,47,68,65,52,58,73,54,61,51,70,70,55,44,68,61,54,67,71,58,49,54,51,50,54,48,52,60,57,66,41,57,67,63,49,62,59,59,60,63,63,50,56,67,56,55,55,58,59,59,51,66,49,39,63,56,55,56,36];
+    var peaks = [100,86,65,68,56,63,68,59,66,63,50,53,66,65,69,68,44,81,53,56,73,65,56,60,35,73,68,46,61,55,60,62,48,56,67,57,47,64,57,49,72,70,60,57,64,60,44,62,65,53,67,55,59,48,63,82,74,65,46,57,68,66,46,65,41,74,54,65,59,75,61,39];
     wave.querySelectorAll(".bars").forEach(function (el) {
       el.innerHTML = peaks.map(function (h) { return '<i style="height:' + h + '%"></i>'; }).join("");
     });
-    var total = 96.03;
+    var total = 79.70;
     function fmt(t) { t = Math.max(0, Math.floor(t)); return Math.floor(t / 60) + ":" + String(t % 60).padStart(2, "0"); }
     function fmtTotal(t) { t = Math.round(t); return Math.floor(t / 60) + ":" + String(t % 60).padStart(2, "0"); }
     function paint(t) {
