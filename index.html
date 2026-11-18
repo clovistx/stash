@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>STASH / 73 · 17 nov 2026</title>
+  <title>STASH / 74 · 18 nov 2026</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
@@ -12,12 +12,13 @@
 <body>
   <div class="shell">
     <div class="hud">
-      <span>GRU / <b>ter</b></span>
+      <span>GRU / <b>qua</b></span>
       <span>signal · stash</span>
       <label class="ed-nav">
         <span>ed.</span>
         <select data-editions aria-label="Edição">
-            <option value="2026-11-17" selected>73 · 17 nov 2026</option>
+            <option value="2026-11-18" selected>74 · 18 nov 2026</option>
+            <option value="2026-11-17">73 · 17 nov 2026</option>
             <option value="2026-11-16">72 · 16 nov 2026</option>
             <option value="2026-11-15">71 · 15 nov 2026</option>
             <option value="2026-11-14">70 · 14 nov 2026</option>
@@ -94,17 +95,17 @@
       </label>
       <a class="arquivo" href="./arquivo.html">arquivo</a>
       <a class="arquivo" href="./assinar/">assinar</a>
-      <span>2026.11.17 · 73</span>
+      <span>2026.11.18 · 74</span>
     </div>
 
     <header class="mast">
-      <div class="issue">73</div>
+      <div class="issue">74</div>
       <div class="wordmark">Stash</div>
       <div class="meta">Clovis Teixeira<br>bookmarks do X</div>
     </header>
     <section class="autoria" aria-label="Sobre o STASH">
       <a class="autoria-photo" href="https://x.com/clovistx" target="_blank" rel="noopener" aria-label="Perfil de @clovistx no X">
-        <img src="2026-11-17/img/clovis.jpg" width="96" height="96" alt="Foto de perfil de Clovis Teixeira (@clovistx) no X" />
+        <img src="2026-11-18/img/clovis.jpg" width="96" height="96" alt="Foto de perfil de Clovis Teixeira (@clovistx) no X" />
       </a>
       <div class="autoria-body">
         <span class="autoria-kicker">curadoria · conteúdo do X</span>
@@ -130,27 +131,27 @@
         <div class="bars played" aria-hidden="true"></div>
       </div>
       <div class="listen-time"><span data-listen-cur>0:00</span><span class="sep">/</span><span data-listen-dur>1:39</span></div>
-      <audio preload="metadata" src="2026-11-17/audio/stash-colega.mp3" data-listen-audio></audio>
+      <audio preload="metadata" src="2026-11-18/audio/stash-colega.mp3" data-listen-audio></audio>
     </section>
     <section class="lede">
       <article class="lead">
-        <div class="kicker">agent harness · Terminal-Bench 4.0 · @RayaneRachid_</div>
-        <h2>Unharnessed troca a lista de tools por um único Python REPL e passa o Claude Code no Terminal-Bench 4.0</h2>
-        <p class="deck">Rayane Rachid lançou um agent harness com uma tool só: uma sessão de Python que fica aberta durante a tarefa inteira, enquanto o modelo escreve todo o resto. No gráfico divulgado pelo projeto, o Claude Opus 5.5 no modo max chega a 71,2% no Terminal-Bench 4.0 dentro do Unharnessed, contra cerca de 65% do mesmo modelo no Claude Code, e ainda gasta menos, US$ 12,19 por tarefa.</p>
-        <p class="byline">Post de 15 de novembro · @RayaneRachid_, citado por @AZERDSQ0329 · mais de 110 mil impressões e 1.700 bookmarks</p>
-        <p>A tese do projeto é que toda tool hardcoded é uma decisão tomada antes, em nome do modelo: o que um read devolve, como um edit é formatado, quanto output sobrevive. Isso fazia sentido quando os modelos precisavam de trilhos, mas cada geração precisa de menos. No Unharnessed, uma única chamada vira um script que lê o arquivo, busca no repositório, muda quarenta lugares e confere o resultado, em um round trip em vez de quatro.</p>
-        <p>O ganho mais interessante está no contexto. A sessão funciona como um kernel do Jupyter, que continua vivo entre as chamadas: um log de 40 mil linhas fica guardado numa variável, e o modelo puxa só as dez linhas de que precisa. Ele também escreve as próprias funções e as guarda na sessão, e quando o contexto é compactado, os dados, o servidor rodando e essas funções continuam lá. É diferente do code mode de outros harnesses, em que o script só chama as mesmas tools fixas de sempre.</p>
-        <p>O projeto é escrito em Rust, open source e gratuito, e entra com a assinatura que você já paga, como Claude Pro ou Max, ChatGPT Plus ou Pro, GitHub Copilot, Google AI Pro e Grok, sem precisar de API key. Também aceita chaves de mais de vinte provedores e modelos locais via Ollama, LM Studio, llama.cpp e vLLM. O placar é do próprio projeto, então vale testar numa tarefa sua antes de trocar de ferramenta.</p>
-        <p class="cta"><a href="https://unharnessed.dev">unharnessed.dev</a> · <a href="https://x.com/RayaneRachid_/status/2122024268368380148">post do @RayaneRachid_</a> · <a href="https://x.com/AZERDSQ0329/status/2122028354463563921">citação do @AZERDSQ0329</a></p>
+        <div class="kicker">decision models · Liquid AI · Artificial Analysis</div>
+        <h2>Liquid AI lança o d1.2, um modelo de decisão que lê texto, imagem e áudio e diz o quanto confia em cada resposta</h2>
+        <p class="deck">A Liquid AI lançou o d1.2 e o d1.2-ultra, dois modelos omnimodais feitos para decidir, e não para conversar: eles recebem texto, imagem e áudio e devolvem respostas estruturadas, sempre com uma probabilidade junto. O d1.2-ultra assumiu o primeiro lugar no Decision Index da Artificial Analysis, com 75 pontos, e o d1.2 entrega quase a mesma qualidade por menos da metade do preço.</p>
+        <p class="byline">Post de 16 de novembro · @liquidai · mais de 25 milhões de impressões e 1.700 bookmarks</p>
+        <p>A diferença para um LLM comum está no formato da saída. Pergunte "quanto deve ser pago?" sobre uma nota fiscal e o modelo devolve o valor junto com os caracteres de onde o leu, ou responde "not found" em vez de chutar quando o número não aparece. As cinco tarefas novas da API cobrem ainda achar todos os trechos de um tipo num texto, como dados pessoais com a posição de cada um, desenhar boxes em volta de objetos numa imagem, estimar um número com uma faixa de erro e marcar todas as opções que se aplicam a uma mensagem de suporte. O áudio entra como input também, seja para identificar o idioma de quem fala, seja para gravar a própria pergunta em vez de digitá-la.</p>
+        <p>O argumento mais forte da Liquid é a calibração. Quando o modelo diz 80%, ele precisa acertar perto de 80% das vezes, e é isso que permite definir um threshold e mandar automaticamente os casos de baixa confiança para revisão humana. Em 13 benchmarks e 22.505 perguntas, o erro de calibração do d1.2-ultra ficou em 0,8 ponto, contra 1,2 do d1.2, 2,7 do Jev 1.14, 3,7 do Decider v1.3 da Perplexity e 7,2 do GPT-6 Luna na Decisions API.</p>
+        <p>Os dois modelos já estão na Liquid API, a US$ 0,02 por milhão de tokens de input no d1.2 e US$ 0,042 no d1.2-ultra, e não há cobrança de output tokens. OpenRouter e Vercel vêm em seguida, e a empresa diz que vai abrir os pesos em algum momento. Se você tem um fluxo de triagem que hoje depende de um prompt longo e de parsing de JSON, é um bom candidato para um teste lado a lado.</p>
+        <p class="cta"><a href="https://liquid.ai/blog/d1-2">blog da Liquid AI</a> · <a href="https://artificialanalysis.ai/evaluations/artificial-analysis-decision-index">Decision Index</a> · <a href="https://console.liquid.ai/">console.liquid.ai</a> · <a href="https://x.com/liquidai/status/2122346077231923698">post do @liquidai</a></p>
       </article>
       <div>
         <figure>
-          <img style="object-position: center center" src="2026-11-17/img/unh-grafico.jpg" alt="Gráfico do Terminal-Bench 4.0 com score no eixo vertical e custo por tarefa no horizontal: Unharnessed com Opus 5.5 max em 71,2% e US$ 12,19, acima de Claude Code com Opus 5.5, Sonnet 5.5 e Fable 5.1 e de Codex com GPT-6 Astra e GPT-6.1 Sol" />
-          <figcaption>No gráfico do projeto, o mesmo Opus 5.5 sobe de cerca de 65% no Claude Code para 71,2% no Unharnessed, com custo menor por tarefa.</figcaption>
+          <img style="object-position: center center" src="2026-11-18/img/liquid-d12.jpg" alt="Diagrama do d1.2: à esquerda, entradas de texto (uma nota da ACME SA com total de 1.234,50 EUR), imagem e áudio; à direita, saídas de span com o valor destacado, box em volta do sol da imagem e decisão refund com probabilidade 0,94" />
+          <figcaption>Entram texto, imagem e áudio; saem um trecho marcado, um box na imagem ou uma decisão com probabilidade.</figcaption>
         </figure>
         <figure>
-          <img style="object-position: center center" src="2026-11-17/img/unh-site.jpg" alt="Página inicial do Unharnessed com fundo escuro de caracteres ASCII, o selo Built in Rust · Open source e a frase A new generation of harness. One tool: a Python REPL. The model writes the rest." />
-          <figcaption>Built in Rust e open source: uma tool, um Python REPL, e o modelo escreve o resto.</figcaption>
+          <img style="object-position: center center" src="2026-11-18/img/liquid-calibracao.jpg" alt="Gráfico de calibração com acurácia menos confiança no eixo vertical e confiança na opção escolhida no horizontal: as linhas do d1.2-ultra e do d1.2 ficam perto do zero, enquanto Jev 1.14, Perplexity Decider v1.3 e GPT-6 Luna aparecem abaixo, na faixa de excesso de confiança" />
+          <figcaption>Erro de calibração de 0,8 ponto no d1.2-ultra; o GPT-6 Luna, na Decisions API, fica em 7,2.</figcaption>
         </figure>
       </div>
     </section>
@@ -158,58 +159,67 @@
     <div class="sec">
       <span class="idx">02</span>
       <h2>Radar</h2>
-      <span class="kicker">o vídeo que o Claude editou e o roteiro de app que ele ensina</span>
+      <span class="kicker">um 9B open source que roda em loop, um container em 2,5 ms e o time de três por trás do OpenBot</span>
     </div>
     <div class="classifieds radar2">
-      <div class="ad">
-        <div class="kicker">Claude · edição de vídeo · @matheusgobbidev</div>
-        <figure><img style="object-position: center top" src="2026-11-17/img/gobbi-edicao.jpg" alt="Quadro do vídeo do Matheus Gobbi com um celular mostrando uma grade de referências de design de apps no Pinterest, com etiquetas como cores e botões, sobre fundo branco" /></figure>
-        <h3>Matheus Gobbi diz que o Claude editou em 20 minutos este vídeo de pouco mais de um minuto</h3>
-        <p>O post é uma provocação a quem diz que o Claude edita mal. O vídeo vertical tem legendas que pulam palavra por palavra no ritmo da fala, zooms suaves entre as etapas, linhas animadas ligando um passo ao outro e o Matheus num picture-in-picture no canto, com acabamento de quem passou a tarde no editor.</p>
-        <p>O post passou de 130 mil impressões e 2.500 bookmarks, e as respostas viraram debate. Como ele não detalhou no fio como montou a edição com o Claude, o melhor é ler o vídeo como uma amostra do acabamento possível, e não como receita.</p>
-        <p class="cta"><a href="https://x.com/matheusgobbidev/status/2122393812899094621">vídeo do @matheusgobbidev</a></p>
+      <div class="ad span2">
+        <div class="kicker">open source · 9B · @SenseTime_AI · @ParisMichalas</div>
+        <figure><img style="object-position: center center" src="2026-11-18/img/sensenova-bench.jpg" alt="Sete gráficos de barras comparando o SenseNova-Loop-9B com a versão Preview e modelos como Qwen3.8-27B em AutomationBench, Terminal-Bench 2.1, NL2Repo, AIDABench, BIRD, tau3-Banking e GAIA, com as barras roxas do SenseNova em destaque" /></figure>
+        <h3>SenseNova-Loop-9B abre os pesos e roda as camadas do meio duas vezes para brigar com modelos de 27B</h3>
+        <p>A SenseTime liberou como open source o SenseNova-Loop-9B, um modelo de 9 bilhões de parâmetros que a empresa coloca no páreo do Qwen3.8-27B em vários benchmarks. O segredo está na arquitetura em loop: são 32 camadas únicas, mas as do meio rodam duas vezes com os mesmos pesos, o que soma 56 execuções por token. Contra a versão Preview, o salto é grande, com o NL2Repo indo de 19,91 para 41,36, o AutomationBench de 14,33 para 36,67 e o GAIA de 37,86 para 69,90.</p>
+        <p>O modelo aceita texto e imagem, chega a 512K de contexto e saiu com pesos AWQ em 4-bit de cerca de 4,9 GB no dia zero. No mesmo dia, Paris Michalas publicou um port em MLX: o build 6-bit recomendado tem 7,3 GB e escolhe o mesmo token que o código original da SenseNova em 96,7% das posições, com versões de 4 e 8 bits ao lado.</p>
+        <p class="cta"><a href="https://github.com/OpenSenseNova/SenseNova-Loop">GitHub</a> · <a href="https://huggingface.co/collections/sensenova/sensenova-loop">Hugging Face</a> · <a href="https://huggingface.co/netprojects/SenseNova-Loop-9B-MLX-6bit">port MLX</a> · <a href="https://x.com/SenseTime_AI/status/2122702684985938356">post da @SenseTime_AI</a> · <a href="https://x.com/ParisMichalas/status/2122761061384495227">resposta do @ParisMichalas</a></p>
       </div>
       <div class="ad">
-        <div class="kicker">app com IA · Expo · React Native</div>
-        <figure><img style="object-position: center top" src="2026-11-17/img/gobbi-pumpy.jpg" alt="Dois celulares lado a lado rodando o app Pumpy, com a saudação Bom dia, Matheus, um mascote em forma de kettlebell, o treino de peito e tríceps, a meta de água e o botão Começar treino" /></figure>
-        <h3>Por dentro, o vídeo ensina a tirar um app do zero com um app.md, o ChatGPT e o Claude</h3>
-        <p>O roteiro tem seis passos. O Matheus junta referências no Pinterest e na App Store, pede ao ChatGPT um arquivo app.md com o que o app faz, as telas, as features e o estilo visual, e depois manda o Claude ler o arquivo e criar o app com Expo e React Native. O resultado é o Pumpy, um app fitness com um mascote de IA que monta treino e dieta, rodando no celular pelo Expo Go.</p>
-        <p>Nas respostas, ele lembrou que é um tutorial para quem está começando e que temas como CI/CD ficam para depois. O próximo episódio da série promete login e banco de dados.</p>
-        <p class="cta"><a href="https://x.com/matheusgobbidev/status/2122393812899094621">vídeo do @matheusgobbidev</a> · <a href="https://x.com/matheusgobbidev/status/2122469229693739085">resposta sobre o público do tutorial</a></p>
+        <div class="kicker">container runtime · Rust · post do @clovistx</div>
+        <figure><img style="object-position: center center" src="2026-11-18/img/kiri-bench.jpg" alt="Painel escuro do Kiri com CPU e memória de dez containers rodando: Kiri com 0,4% de CPU e 420 MB, OrbStack com 1,5% e 1,1 GB, Colima com 3,0% e 1,3 GB e Docker Desktop com 6,0% e 2,5 GB, marcado como amostra" /></figure>
+        <h3>Kiri sobe e derruba um container em 2,5 ms pela Docker API, contra 213 ms do Docker Desktop</h3>
+        <p>O Kiri é um container runtime open source escrito em Rust que quer substituir o Docker Desktop e o OrbStack sem mudar o seu fluxo, já que o docker CLI, o Compose e o buildx continuam iguais. Ele roda os containers numa VM com kernel próprio de 10 MB e um agente em Rust de cerca de 900 KB como PID 1, que cria cada container com um único clone3, sem runc, shim ou dockerd. A VM dorme depois de 60 segundos parada e acorda em cerca de 0,15 s.</p>
+        <p>Na tabela do projeto, a mediana de 30 execuções dá 2,55 ms pela API, contra 213 ms do Docker Desktop e 380 ms do OrbStack. O painel de CPU e memória da imagem ainda é amostra, segundo o próprio projeto, e o comando kiri bench refaz o teste na sua máquina.</p>
+        <p class="cta"><a href="https://github.com/libracoder/kiri">github.com/libracoder/kiri</a> · <a href="https://x.com/clovistx/status/2122681702560444754">post do @clovistx</a></p>
+      </div>
+      <div class="ad">
+        <div class="kicker">open source · ritmo de release · @OpenBot_</div>
+        <figure><img style="object-position: center 40%" src="2026-11-18/img/openbot-time.jpg" alt="Selfie de três jovens desenvolvedores numa sala de escritório com janela grande, mesas compridas com mousepads e sacolas azuis com garrafas ao fundo" /></figure>
+        <h3>Três devs e 3.813 PRs: o time inteiro do OpenBot cabe numa selfie</h3>
+        <p>O OpenBot postou uma selfie com o time de desenvolvimento completo, formado por três pessoas: @norbertbodziony, @norbert_adamus e @Sn13zka. Desde 13 de agosto, eles fizeram merge de 3.813 pull requests, o que dá uma média de uns 40 por dia, e soltam release nova quase todos os dias.</p>
+        <p>É daí que vem a piada do post, dirigida a quem já precisou atualizar o OpenBot duas vezes no mesmo dia. O post passou de 70 mil impressões e 160 respostas, e funciona como um bom retrato de quanto um time minúsculo consegue entregar hoje.</p>
+        <p class="cta"><a href="https://x.com/OpenBot_/status/2122343954079240636">post do @OpenBot_</a></p>
       </div>
     </div>
 
     <div class="sec">
       <span class="idx">03</span>
       <h2>Hora do Hands-on</h2>
-      <span class="kicker">três testes de dez minutos · pra terça</span>
+      <span class="kicker">três testes de dez minutos · pra quarta</span>
     </div>
 
     <div class="classifieds handson">
       <div class="ad">
-        <div class="kicker">teste 1 · Unharnessed</div>
-        <h3>Rode o Unharnessed com a assinatura que você já paga</h3>
-        <p>Siga a instalação do unharnessed.dev, entre pelo navegador com o plano do Claude, do ChatGPT ou do Grok e dê a ele uma tarefa real do seu repositório, como encontrar testes flaky. Compare quantos turnos ele gasta com o que o seu agente de sempre gastaria na mesma tarefa.</p>
+        <div class="kicker">teste 1 · d1.2</div>
+        <h3>Passe dez notas fiscais pelo d1.2 e escolha o seu threshold</h3>
+        <p>Abra uma conta no console.liquid.ai, separe dez notas ou recibos e pergunte a cada um quanto deve ser pago. Confira se o modelo aponta os caracteres de onde leu o valor e se responde "not found" quando ele não aparece, e anote as probabilidades para decidir a partir de qual confiança você mandaria o caso para revisão humana.</p>
       </div>
       <div class="ad">
-        <div class="kicker">teste 2 · app.md</div>
-        <h3>Escreva um app.md antes do primeiro prompt de código</h3>
-        <p>Separe cinco screenshots de apps que você admira e peça a um modelo um app.md com o que o app faz, as telas, as features e o estilo visual, como no vídeo do Matheus. Depois entregue o arquivo ao seu agente de código com Expo e veja se a primeira tela aparece no Expo Go em menos de dez minutos.</p>
+        <div class="kicker">teste 2 · Kiri</div>
+        <h3>Rode o kiri bench contra o runtime que você usa hoje</h3>
+        <p>Instale o Kiri pelo runkiri.com/releases, rode o kiri bench e compare os números com os do Docker Desktop ou do OrbStack na mesma máquina. Depois suba um projeto real com docker --context kiri compose up -d e veja se alguma coisa do seu fluxo precisa mudar.</p>
       </div>
       <div class="ad">
-        <div class="kicker">teste 3 · contexto</div>
-        <h3>Teste a ideia do Python REPL no agente que você já usa</h3>
-        <p>Peça ao seu agente que carregue um log longo numa variável de Python e responda só com as dez linhas que explicam o erro, em vez de ler o arquivo inteiro. Compare o consumo de contexto com o jeito de sempre e você vai entender, na prática, a aposta do Unharnessed.</p>
+        <div class="kicker">teste 3 · SenseNova-Loop-9B</div>
+        <h3>Peça um site interativo a um modelo de 9B</h3>
+        <p>Baixe os pesos AWQ em 4-bit do Hugging Face, ou o port MLX, e peça uma landing page interativa de uma página só, como nas demos da SenseTime. Compare o resultado com o do modelo local que você usa hoje e repare em quanto tempo cada um leva para entregar algo que abre no navegador.</p>
       </div>
     </div>
 
     <footer>
-      <span>ed. 73 · 17 nov 2026 · 2 bookmarks</span>
+      <span>ed. 74 · 18 nov 2026 · 5 bookmarks</span>
       <a class="badge-x" href="https://x.com/clovistx" target="_blank" rel="noopener"><i aria-hidden="true"></i>bookmarks de <b>@clovistx</b></a>
       <label class="ed-nav">
         <span>ed.</span>
         <select data-editions aria-label="Edição">
-            <option value="2026-11-17" selected>73 · 17 nov 2026</option>
+            <option value="2026-11-18" selected>74 · 18 nov 2026</option>
+            <option value="2026-11-17">73 · 17 nov 2026</option>
             <option value="2026-11-16">72 · 16 nov 2026</option>
             <option value="2026-11-15">71 · 15 nov 2026</option>
             <option value="2026-11-14">70 · 14 nov 2026</option>
@@ -298,7 +308,7 @@
     var cur = root.querySelector("[data-listen-cur]");
     var dur = root.querySelector("[data-listen-dur]");
     var state = root.querySelector("[data-listen-state]");
-    var peaks = [100,76,61,73,75,77,54,61,67,55,62,62,64,69,47,64,64,50,55,64,56,56,71,53,65,65,56,55,59,50,75,58,74,43,64,55,68,47,64,61,66,62,59,50,69,62,62,59,78,80,50,60,54,63,60,61,50,74,58,64,59,66,48,60,64,64,58,67,57,63,57,42];
+    var peaks = [100,73,74,68,79,64,68,80,68,52,59,73,46,66,47,59,62,51,57,75,71,70,78,65,57,60,58,61,55,54,60,57,55,71,60,49,69,72,70,42,74,44,66,58,57,45,70,61,47,62,64,66,72,48,54,52,56,63,58,50,50,54,75,55,69,55,56,72,58,52,57,42];
     wave.querySelectorAll(".bars").forEach(function (el) {
       el.innerHTML = peaks.map(function (h) { return '<i style="height:' + h + '%"></i>'; }).join("");
     });
