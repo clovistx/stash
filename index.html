@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>STASH / 74 · 18 nov 2026</title>
+  <title>STASH / 75 · 19 nov 2026</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
@@ -12,12 +12,13 @@
 <body>
   <div class="shell">
     <div class="hud">
-      <span>GRU / <b>qua</b></span>
+      <span>GRU / <b>qui</b></span>
       <span>signal · stash</span>
       <label class="ed-nav">
         <span>ed.</span>
         <select data-editions aria-label="Edição">
-            <option value="2026-11-18" selected>74 · 18 nov 2026</option>
+            <option value="2026-11-19" selected>75 · 19 nov 2026</option>
+            <option value="2026-11-18">74 · 18 nov 2026</option>
             <option value="2026-11-17">73 · 17 nov 2026</option>
             <option value="2026-11-16">72 · 16 nov 2026</option>
             <option value="2026-11-15">71 · 15 nov 2026</option>
@@ -95,17 +96,17 @@
       </label>
       <a class="arquivo" href="./arquivo.html">arquivo</a>
       <a class="arquivo" href="./assinar/">assinar</a>
-      <span>2026.11.18 · 74</span>
+      <span>2026.11.19 · 75</span>
     </div>
 
     <header class="mast">
-      <div class="issue">74</div>
+      <div class="issue">75</div>
       <div class="wordmark">Stash</div>
       <div class="meta">Clovis Teixeira<br>bookmarks do X</div>
     </header>
     <section class="autoria" aria-label="Sobre o STASH">
       <a class="autoria-photo" href="https://x.com/clovistx" target="_blank" rel="noopener" aria-label="Perfil de @clovistx no X">
-        <img src="2026-11-18/img/clovis.jpg" width="96" height="96" alt="Foto de perfil de Clovis Teixeira (@clovistx) no X" />
+        <img src="2026-11-19/img/clovis.jpg" width="96" height="96" alt="Foto de perfil de Clovis Teixeira (@clovistx) no X" />
       </a>
       <div class="autoria-body">
         <span class="autoria-kicker">curadoria · conteúdo do X</span>
@@ -123,35 +124,35 @@
         <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="5" width="4" height="14" rx="1"/><rect x="13.5" y="5" width="4" height="14" rx="1"/></svg>
       </button>
       <div class="listen-text">
-        <span class="listen-kicker"><i class="listen-dot" aria-hidden="true"></i><span data-listen-state>Ouça a edição</span> · 1:39</span>
+        <span class="listen-kicker"><i class="listen-dot" aria-hidden="true"></i><span data-listen-state>Ouça a edição</span> · 1:40</span>
         <span class="listen-title">Um papo rápido sobre as notícias de hoje</span>
       </div>
-      <div class="listen-wave" role="slider" tabindex="0" aria-label="Posição do áudio" aria-valuemin="0" aria-valuemax="99" aria-valuenow="0" aria-valuetext="0:00 de 1:39" data-listen-wave>
+      <div class="listen-wave" role="slider" tabindex="0" aria-label="Posição do áudio" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-valuetext="0:00 de 1:40" data-listen-wave>
         <div class="bars" aria-hidden="true"></div>
         <div class="bars played" aria-hidden="true"></div>
       </div>
-      <div class="listen-time"><span data-listen-cur>0:00</span><span class="sep">/</span><span data-listen-dur>1:39</span></div>
-      <audio preload="metadata" src="2026-11-18/audio/stash-colega.mp3" data-listen-audio></audio>
+      <div class="listen-time"><span data-listen-cur>0:00</span><span class="sep">/</span><span data-listen-dur>1:40</span></div>
+      <audio preload="metadata" src="2026-11-19/audio/stash-colega.mp3" data-listen-audio></audio>
     </section>
     <section class="lede">
       <article class="lead">
-        <div class="kicker">decision models · Liquid AI · Artificial Analysis</div>
-        <h2>Liquid AI lança o d1.2, um modelo de decisão que lê texto, imagem e áudio e diz o quanto confia em cada resposta</h2>
-        <p class="deck">A Liquid AI lançou o d1.2 e o d1.2-ultra, dois modelos omnimodais feitos para decidir, e não para conversar: eles recebem texto, imagem e áudio e devolvem respostas estruturadas, sempre com uma probabilidade junto. O d1.2-ultra assumiu o primeiro lugar no Decision Index da Artificial Analysis, com 75 pontos, e o d1.2 entrega quase a mesma qualidade por menos da metade do preço.</p>
-        <p class="byline">Post de 16 de novembro · @liquidai · mais de 25 milhões de impressões e 1.700 bookmarks</p>
-        <p>A diferença para um LLM comum está no formato da saída. Pergunte "quanto deve ser pago?" sobre uma nota fiscal e o modelo devolve o valor junto com os caracteres de onde o leu, ou responde "not found" em vez de chutar quando o número não aparece. As cinco tarefas novas da API cobrem ainda achar todos os trechos de um tipo num texto, como dados pessoais com a posição de cada um, desenhar boxes em volta de objetos numa imagem, estimar um número com uma faixa de erro e marcar todas as opções que se aplicam a uma mensagem de suporte. O áudio entra como input também, seja para identificar o idioma de quem fala, seja para gravar a própria pergunta em vez de digitá-la.</p>
-        <p>O argumento mais forte da Liquid é a calibração. Quando o modelo diz 80%, ele precisa acertar perto de 80% das vezes, e é isso que permite definir um threshold e mandar automaticamente os casos de baixa confiança para revisão humana. Em 13 benchmarks e 22.505 perguntas, o erro de calibração do d1.2-ultra ficou em 0,8 ponto, contra 1,2 do d1.2, 2,7 do Jev 1.14, 3,7 do Decider v1.3 da Perplexity e 7,2 do GPT-6 Luna na Decisions API.</p>
-        <p>Os dois modelos já estão na Liquid API, a US$ 0,02 por milhão de tokens de input no d1.2 e US$ 0,042 no d1.2-ultra, e não há cobrança de output tokens. OpenRouter e Vercel vêm em seguida, e a empresa diz que vai abrir os pesos em algum momento. Se você tem um fluxo de triagem que hoje depende de um prompt longo e de parsing de JSON, é um bom candidato para um teste lado a lado.</p>
-        <p class="cta"><a href="https://liquid.ai/blog/d1-2">blog da Liquid AI</a> · <a href="https://artificialanalysis.ai/evaluations/artificial-analysis-decision-index">Decision Index</a> · <a href="https://console.liquid.ai/">console.liquid.ai</a> · <a href="https://x.com/liquidai/status/2122346077231923698">post do @liquidai</a></p>
+        <div class="kicker">Claude Code · experimental · @ClaudeDevs</div>
+        <h2>Code Mode deixa o Claude Code escrever um script que encadeia as ferramentas, em vez de chamar uma de cada vez</h2>
+        <p class="deck">O Claude Code ganhou o Code Mode, um jeito experimental de trabalhar com tools em que o Claude escreve um trecho de JavaScript que faz várias chamadas num passo só. O script pode rodar comandos em paralelo, passar o resultado de um para o próximo e devolver só a parte da saída que interessa, e o Claude ainda consegue responder enquanto um comando longo continua rodando.</p>
+        <p class="byline">Post de 17 de novembro · @ClaudeDevs · 2,2 milhões de impressões e mais de 14 mil bookmarks</p>
+        <p>Sem o Code Mode, o Claude pede um Bash, um Read ou um Edit, lê o resultado e só então decide o passo seguinte. Com ele, a lógica vira código: no exemplo da documentação, um pedido para aumentar um limite de retry vira quatro linhas que acham o arquivo com rg, trocam o valor, rodam os testes e devolvem o caminho e a saída. Na conversa você continua vendo as chamadas, como o diff da edição, e o código em si aparece no transcript viewer, aberto com Ctrl+O.</p>
+        <p>A Anthropic recomenda o modo para tarefas com muitas chamadas relacionadas, como uma mudança que se repete em vários arquivos, uma busca cujo resultado precisa de filtro antes de o Claude ler, ou comandos independentes que podem rodar ao mesmo tempo. Há limites claros: o código para depois de dez minutos se não puder ir para background, o classifier do auto mode revisa o script inteiro e não cada chamada, e o recurso só funciona numa sessão interativa no terminal, com o build nativo a partir da v2.1.323.</p>
+        <p>Para ligar, basta subir o claude com CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1. Ficam de fora, por enquanto, o modo -p, o Agent SDK, o painel do VS Code, o app Desktop e as sessões na nuvem, além de contas via Bedrock e outros gateways. Se você tem um refactor repetitivo parado na fila, é o caso de teste ideal.</p>
+        <p class="cta"><a href="https://code.claude.com/docs/en/code-mode">documentação do Code Mode</a> · <a href="https://x.com/ClaudeDevs/status/2122801681939234950">post do @ClaudeDevs</a></p>
       </article>
       <div>
         <figure>
-          <img style="object-position: center center" src="2026-11-18/img/liquid-d12.jpg" alt="Diagrama do d1.2: à esquerda, entradas de texto (uma nota da ACME SA com total de 1.234,50 EUR), imagem e áudio; à direita, saídas de span com o valor destacado, box em volta do sol da imagem e decisão refund com probabilidade 0,94" />
-          <figcaption>Entram texto, imagem e áudio; saem um trecho marcado, um box na imagem ou uma decisão com probabilidade.</figcaption>
+          <img style="object-position: center center" src="2026-11-19/img/codemode-exemplo.jpg" alt="Janela de terminal escura com o comando CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1 claude e quatro linhas de JavaScript do exemplo da documentação: busca com rg, split do resultado, edit trocando maxAttempts de 3 para 5 e npm test do retryPolicy" />
+          <figcaption>O exemplo da documentação: achar o arquivo, editar e rodar os testes num passo só.</figcaption>
         </figure>
         <figure>
-          <img style="object-position: center center" src="2026-11-18/img/liquid-calibracao.jpg" alt="Gráfico de calibração com acurácia menos confiança no eixo vertical e confiança na opção escolhida no horizontal: as linhas do d1.2-ultra e do d1.2 ficam perto do zero, enquanto Jev 1.14, Perplexity Decider v1.3 e GPT-6 Luna aparecem abaixo, na faixa de excesso de confiança" />
-          <figcaption>Erro de calibração de 0,8 ponto no d1.2-ultra; o GPT-6 Luna, na Decisions API, fica em 7,2.</figcaption>
+          <img style="object-position: left center" src="2026-11-19/img/codemode-docs.jpg" alt="Card escuro da documentação do Claude Code com o título Run tool calls from code with Code Mode, na seção Model and responses" />
+          <figcaption>O recurso é experimental, vem desligado e pode mudar ou sumir em qualquer release.</figcaption>
         </figure>
       </div>
     </section>
@@ -159,66 +160,83 @@
     <div class="sec">
       <span class="idx">02</span>
       <h2>Radar</h2>
-      <span class="kicker">um 9B open source que roda em loop, um container em 2,5 ms e o time de três por trás do OpenBot</span>
+      <span class="kicker">scraping local em Rust, um desktop no navegador, disco em S3 para agentes, um benchmark de ataques e vídeos recriados</span>
     </div>
     <div class="classifieds radar2">
       <div class="ad span2">
-        <div class="kicker">open source · 9B · @SenseTime_AI · @ParisMichalas</div>
-        <figure><img style="object-position: center center" src="2026-11-18/img/sensenova-bench.jpg" alt="Sete gráficos de barras comparando o SenseNova-Loop-9B com a versão Preview e modelos como Qwen3.8-27B em AutomationBench, Terminal-Bench 2.1, NL2Repo, AIDABench, BIRD, tau3-Banking e GAIA, com as barras roxas do SenseNova em destaque" /></figure>
-        <h3>SenseNova-Loop-9B abre os pesos e roda as camadas do meio duas vezes para brigar com modelos de 27B</h3>
-        <p>A SenseTime liberou como open source o SenseNova-Loop-9B, um modelo de 9 bilhões de parâmetros que a empresa coloca no páreo do Qwen3.8-27B em vários benchmarks. O segredo está na arquitetura em loop: são 32 camadas únicas, mas as do meio rodam duas vezes com os mesmos pesos, o que soma 56 execuções por token. Contra a versão Preview, o salto é grande, com o NL2Repo indo de 19,91 para 41,36, o AutomationBench de 14,33 para 36,67 e o GAIA de 37,86 para 69,90.</p>
-        <p>O modelo aceita texto e imagem, chega a 512K de contexto e saiu com pesos AWQ em 4-bit de cerca de 4,9 GB no dia zero. No mesmo dia, Paris Michalas publicou um port em MLX: o build 6-bit recomendado tem 7,3 GB e escolhe o mesmo token que o código original da SenseNova em 96,7% das posições, com versões de 4 e 8 bits ao lado.</p>
-        <p class="cta"><a href="https://github.com/OpenSenseNova/SenseNova-Loop">GitHub</a> · <a href="https://huggingface.co/collections/sensenova/sensenova-loop">Hugging Face</a> · <a href="https://huggingface.co/netprojects/SenseNova-Loop-9B-MLX-6bit">port MLX</a> · <a href="https://x.com/SenseTime_AI/status/2122702684985938356">post da @SenseTime_AI</a> · <a href="https://x.com/ParisMichalas/status/2122761061384495227">resposta do @ParisMichalas</a></p>
+        <div class="kicker">open source · Rust · scraping · @firecrawl</div>
+        <figure><img style="object-position: center center" src="2026-11-19/img/firecrawl-local.jpg" alt="Tela branca do vídeo de lançamento com o número 230x em laranja, a frase less memory, a indicação 11mb idle e um medidor circular em degradê" /></figure>
+        <h3>Firecrawl Local reescreve o scraper em Rust para o agente raspar a web na sua máquina, com 11 MB de memória parado</h3>
+        <p>A Firecrawl reconstruiu o repositório para que os agentes façam scraping localmente. O Firecrawl Local é um binário único em Rust que faz scrape, crawl e map sem banco, fila ou container, e a empresa diz que ele é 37 vezes mais rápido que a versão self-hosted e usa 230 vezes menos memória, com 11 MB em idle. Tudo é open source e compatível de saída com o MCP e os SDKs da Firecrawl.</p>
+        <p>O comando serve sobe a API v2 da Firecrawl em localhost, na porta 3002, então código que já fala com a Firecrawl roda sem mudança. Páginas que dependem de JavaScript são renderizadas no Chrome que você já tem instalado, enquanto busca e páginas que recusam a sua máquina vão para a Firecrawl Cloud, comportamento que dá para desligar com FIRECRAWL_CLOUD=off.</p>
+        <p class="cta"><a href="https://www.firecrawl.dev/changelog/firecrawl-local">anúncio</a> · <a href="https://docs.firecrawl.dev/quickstarts/firecrawl-local">quickstart</a> · <a href="https://github.com/firecrawl/firecrawl">GitHub</a> · <a href="https://x.com/firecrawl/status/2123096169630912637">post da @firecrawl</a></p>
       </div>
       <div class="ad">
-        <div class="kicker">container runtime · Rust · post do @clovistx</div>
-        <figure><img style="object-position: center center" src="2026-11-18/img/kiri-bench.jpg" alt="Painel escuro do Kiri com CPU e memória de dez containers rodando: Kiri com 0,4% de CPU e 420 MB, OrbStack com 1,5% e 1,1 GB, Colima com 3,0% e 1,3 GB e Docker Desktop com 6,0% e 2,5 GB, marcado como amostra" /></figure>
-        <h3>Kiri sobe e derruba um container em 2,5 ms pela Docker API, contra 213 ms do Docker Desktop</h3>
-        <p>O Kiri é um container runtime open source escrito em Rust que quer substituir o Docker Desktop e o OrbStack sem mudar o seu fluxo, já que o docker CLI, o Compose e o buildx continuam iguais. Ele roda os containers numa VM com kernel próprio de 10 MB e um agente em Rust de cerca de 900 KB como PID 1, que cria cada container com um único clone3, sem runc, shim ou dockerd. A VM dorme depois de 60 segundos parada e acorda em cerca de 0,15 s.</p>
-        <p>Na tabela do projeto, a mediana de 30 execuções dá 2,55 ms pela API, contra 213 ms do Docker Desktop e 380 ms do OrbStack. O painel de CPU e memória da imagem ainda é amostra, segundo o próprio projeto, e o comando kiri bench refaz o teste na sua máquina.</p>
-        <p class="cta"><a href="https://github.com/libracoder/kiri">github.com/libracoder/kiri</a> · <a href="https://x.com/clovistx/status/2122681702560444754">post do @clovistx</a></p>
+        <div class="kicker">Vercel Labs · desktop streaming · @lahfir</div>
+        <figure><img style="object-position: left top" src="2026-11-19/img/screen-relay-sandbox.jpg" alt="Código TypeScript em fundo escuro que cria um Vercel Sandbox chamado relay-sdk na porta 8080, instala o screen-relay com npm e sobe o desktop com screen-relay up -d --public" /></figure>
+        <h3>screen-relay transmite um desktop para o navegador a até 120 fps e deixa o agente usar a mesma tela</h3>
+        <p>O screen-relay é um projeto experimental da Vercel Labs que captura a tela de um Linux, macOS ou Windows, codifica em H.264 e entrega no navegador, onde você usa mouse e teclado normalmente. Um agente controla o mesmo desktop pelo CLI, por um SDK em Node ou pela API HTTP e WebSocket, tirando screenshots e mandando cliques, teclas e texto.</p>
+        <p>Num Vercel Sandbox de 8 vCPUs, o projeto chega a 120 fps. Áudio, clipboard e encoding por hardware ainda não são suportados, e a instalação é um npm i -g screen-relay seguido de screen-relay up.</p>
+        <p class="cta"><a href="https://screen-relay.dev/docs">documentação</a> · <a href="https://github.com/vercel-labs/screen-relay">GitHub</a> · <a href="https://x.com/lahfir/status/2123260459537371242">post do @lahfir</a></p>
       </div>
       <div class="ad">
-        <div class="kicker">open source · ritmo de release · @OpenBot_</div>
-        <figure><img style="object-position: center 40%" src="2026-11-18/img/openbot-time.jpg" alt="Selfie de três jovens desenvolvedores numa sala de escritório com janela grande, mesas compridas com mousepads e sacolas azuis com garrafas ao fundo" /></figure>
-        <h3>Três devs e 3.813 PRs: o time inteiro do OpenBot cabe numa selfie</h3>
-        <p>O OpenBot postou uma selfie com o time de desenvolvimento completo, formado por três pessoas: @norbertbodziony, @norbert_adamus e @Sn13zka. Desde 13 de agosto, eles fizeram merge de 3.813 pull requests, o que dá uma média de uns 40 por dia, e soltam release nova quase todos os dias.</p>
-        <p>É daí que vem a piada do post, dirigida a quem já precisou atualizar o OpenBot duas vezes no mesmo dia. O post passou de 70 mil impressões e 160 respostas, e funciona como um bom retrato de quanto um time minúsculo consegue entregar hoje.</p>
-        <p class="cta"><a href="https://x.com/OpenBot_/status/2122343954079240636">post do @OpenBot_</a></p>
+        <div class="kicker">open source · filesystem · search · @dom_gag_96</div>
+        <figure><img style="object-position: center center" src="2026-11-19/img/skywake.jpg" alt="Card claro do Skywake com o logo e o título Fast files and search for your agents and apps, seguido da descrição open-source filesystem and search on your own S3 bucket" /></figure>
+        <h3>Skywake transforma um bucket S3 num disco local e dá a cada agente a própria cópia do workspace em 10 ms</h3>
+        <p>O Skywake é um filesystem e um search engine open source para agentes, lançado sob Apache 2.0. Ele monta o seu bucket S3 como um disco rápido e cria cópias do workspace em 10 ms, de modo que cem agentes trabalhando num repositório de 10 GB ocupam 30 GB, e não 1 TB, o que o projeto calcula como um custo 33 vezes menor.</p>
+        <p>A busca funciona por significado, por palavras exatas ou pelos dois, com um índice que também é copiado para cada agente. O Git continua rodando normalmente dentro de cada cópia, e dá para fazer self-host com Docker ou Kubernetes.</p>
+        <p class="cta"><a href="https://skywake.dev">skywake.dev</a> · <a href="https://x.com/dom_gag_96/status/2122721431628755431">post do @dom_gag_96</a></p>
+      </div>
+      <div class="ad">
+        <div class="kicker">segurança de agentes · benchmark · @PromptArmor</div>
+        <figure><img style="object-position: center top" src="2026-11-19/img/frontierbreach.jpg" alt="Gráfico de barras do FrontierBreach com a taxa de sucesso de ataques contra agentes em tarefas corporativas: Gemini 4 Carbon com 2,4%, Gemini 4 Argon com 4,3%, GPT-6 Astra com 7,6%, Claude Fable 5.2 e Claude Opus 5 com 10%, até Beam 1.0 com 72,9% e Grok 4.5 com 91,4%" /></figure>
+        <h3>FrontierBreach mede quantas vezes um ataque consegue desviar um agente numa tarefa corporativa, e a distância entre os modelos é enorme</h3>
+        <p>A PromptArmor lançou o FrontierBreach, um benchmark de attack success rate em workflows agênticos de empresa. A tese é que os benchmarks atuais subestimam o risco, e por isso os cenários usam tarefas corporativas realistas e cadeias de ataque que terminam em consequências concretas, como ransomware, exfiltração de dados e phishing.</p>
+        <p>No primeiro ranking, com k=5 e intervalo de confiança de 95%, o Gemini 4 Carbon foi enganado em 2,4% das tentativas, o GPT-6 Astra em 7,6% e o Claude Fable 5.2 em 10%, enquanto o Grok 4.5 chegou a 91,4%. O post passou de 1,1 milhão de impressões.</p>
+        <p class="cta"><a href="https://x.com/PromptArmor/status/2123114516498252054">post da @PromptArmor</a></p>
+      </div>
+      <div class="ad">
+        <div class="kicker">vídeo · skills · @HyperFrames_ · @Rames_Jusso</div>
+        <figure><img style="object-position: center center" src="2026-11-19/img/hyperframes-prisma.jpg" alt="Quadro do vídeo comparativo com o rótulo Ours, reverse-any-video, mostrando um prisma desenhado em fundo escuro que decompõe um feixe de luz branca num arco-íris" /></figure>
+        <h3>A skill reverse-any-video do HyperFrames recria um vídeo como projeto editável em 81 segundos</h3>
+        <p>James Russo apresentou a reverse-any-video, a skill que o time dele construiu para o HyperFrames, o framework da HeyGen que renderiza HTML como vídeo, e a colocou lado a lado com a REA-Video, outra skill que circula para o mesmo fim. Na comparação dele, a reconstrução levou 81 segundos contra 1.595, cerca de 20 vezes mais rápido, com SSIM de 0,96 contra 0,78 em relação ao original.</p>
+        <p>A skill refaz o vídeo como um projeto HyperFrames que continua editável, com cortes, tempos, textos e áudio conferidos quadro a quadro, e faz parte do plano Pro. A documentação pede que você só recrie vídeos que tem direito de usar.</p>
+        <p class="cta"><a href="https://github.com/heygen-com/hyperframes/blob/main/skills/reverse-any-video/SKILL.md">SKILL.md</a> · <a href="https://x.com/Rames_Jusso/status/2122465287354409304">post do @Rames_Jusso</a></p>
       </div>
     </div>
 
     <div class="sec">
       <span class="idx">03</span>
       <h2>Hora do Hands-on</h2>
-      <span class="kicker">três testes de dez minutos · pra quarta</span>
+      <span class="kicker">três testes de dez minutos · pra quinta</span>
     </div>
 
     <div class="classifieds handson">
       <div class="ad">
-        <div class="kicker">teste 1 · d1.2</div>
-        <h3>Passe dez notas fiscais pelo d1.2 e escolha o seu threshold</h3>
-        <p>Abra uma conta no console.liquid.ai, separe dez notas ou recibos e pergunte a cada um quanto deve ser pago. Confira se o modelo aponta os caracteres de onde leu o valor e se responde "not found" quando ele não aparece, e anote as probabilidades para decidir a partir de qual confiança você mandaria o caso para revisão humana.</p>
+        <div class="kicker">teste 1 · Code Mode</div>
+        <h3>Ligue o Code Mode e entregue a ele um refactor repetitivo</h3>
+        <p>Atualize o Claude Code para a v2.1.323 ou mais nova, abra o terminal com CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1 claude e peça uma mudança que se repete em vários arquivos, como renomear uma opção ou trocar um import. Depois abra o transcript com Ctrl+O, leia o script que ele escreveu e compare o tempo com o da mesma tarefa no modo normal.</p>
       </div>
       <div class="ad">
-        <div class="kicker">teste 2 · Kiri</div>
-        <h3>Rode o kiri bench contra o runtime que você usa hoje</h3>
-        <p>Instale o Kiri pelo runkiri.com/releases, rode o kiri bench e compare os números com os do Docker Desktop ou do OrbStack na mesma máquina. Depois suba um projeto real com docker --context kiri compose up -d e veja se alguma coisa do seu fluxo precisa mudar.</p>
+        <div class="kicker">teste 2 · Firecrawl Local</div>
+        <h3>Raspe uma documentação inteira para markdown sem sair da máquina</h3>
+        <p>Instale com cargo install firecrawl-local e rode um crawl com --limit 50 e --out ./pages numa documentação que você consulta sempre. Em seguida suba o firecrawl-local serve com FIRECRAWL_CLOUD=off, aponte um SDK da Firecrawl para localhost:3002 e veja se o seu código atual funciona sem nenhuma mudança.</p>
       </div>
       <div class="ad">
-        <div class="kicker">teste 3 · SenseNova-Loop-9B</div>
-        <h3>Peça um site interativo a um modelo de 9B</h3>
-        <p>Baixe os pesos AWQ em 4-bit do Hugging Face, ou o port MLX, e peça uma landing page interativa de uma página só, como nas demos da SenseTime. Compare o resultado com o do modelo local que você usa hoje e repare em quanto tempo cada um leva para entregar algo que abre no navegador.</p>
+        <div class="kicker">teste 3 · screen-relay</div>
+        <h3>Abra o seu desktop no navegador e deixe um agente tirar o screenshot</h3>
+        <p>Rode npm i -g screen-relay e screen-relay up, abra o link do viewer e use a máquina pelo navegador por alguns minutos. Depois peça ao seu agente para tirar um screenshot e clicar em algo pelo CLI, e repare na latência entre o comando e o que aparece na tela.</p>
       </div>
     </div>
 
     <footer>
-      <span>ed. 74 · 18 nov 2026 · 5 bookmarks</span>
+      <span>ed. 75 · 19 nov 2026 · 6 bookmarks</span>
       <a class="badge-x" href="https://x.com/clovistx" target="_blank" rel="noopener"><i aria-hidden="true"></i>bookmarks de <b>@clovistx</b></a>
       <label class="ed-nav">
         <span>ed.</span>
         <select data-editions aria-label="Edição">
-            <option value="2026-11-18" selected>74 · 18 nov 2026</option>
+            <option value="2026-11-19" selected>75 · 19 nov 2026</option>
+            <option value="2026-11-18">74 · 18 nov 2026</option>
             <option value="2026-11-17">73 · 17 nov 2026</option>
             <option value="2026-11-16">72 · 16 nov 2026</option>
             <option value="2026-11-15">71 · 15 nov 2026</option>
@@ -308,11 +326,11 @@
     var cur = root.querySelector("[data-listen-cur]");
     var dur = root.querySelector("[data-listen-dur]");
     var state = root.querySelector("[data-listen-state]");
-    var peaks = [100,73,74,68,79,64,68,80,68,52,59,73,46,66,47,59,62,51,57,75,71,70,78,65,57,60,58,61,55,54,60,57,55,71,60,49,69,72,70,42,74,44,66,58,57,45,70,61,47,62,64,66,72,48,54,52,56,63,58,50,50,54,75,55,69,55,56,72,58,52,57,42];
+    var peaks = [100,71,56,65,69,53,73,58,73,57,62,57,63,52,51,66,61,45,63,62,60,80,65,48,65,43,60,67,63,59,55,55,43,66,52,50,47,67,64,51,57,55,64,52,56,66,63,60,69,70,47,53,52,51,68,54,52,63,59,56,44,61,59,43,72,52,43,59,59,61,53,36];
     wave.querySelectorAll(".bars").forEach(function (el) {
       el.innerHTML = peaks.map(function (h) { return '<i style="height:' + h + '%"></i>'; }).join("");
     });
-    var total = 98.90;
+    var total = 99.55;
     function fmt(t) { t = Math.max(0, Math.floor(t)); return Math.floor(t / 60) + ":" + String(t % 60).padStart(2, "0"); }
     function fmtTotal(t) { t = Math.round(t); return Math.floor(t / 60) + ":" + String(t % 60).padStart(2, "0"); }
     function paint(t) {
