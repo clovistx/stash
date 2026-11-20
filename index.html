@@ -3,21 +3,22 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>STASH / 75 · 19 nov 2026</title>
+  <title>STASH / 76 · 20 nov 2026</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=15" />
+  <link rel="stylesheet" href="styles.css?v=16" />
 </head>
 <body>
   <div class="shell">
     <div class="hud">
-      <span>GRU / <b>qui</b></span>
+      <span>GRU / <b>sex</b></span>
       <span>signal · stash</span>
       <label class="ed-nav">
         <span>ed.</span>
         <select data-editions aria-label="Edição">
-            <option value="2026-11-19" selected>75 · 19 nov 2026</option>
+            <option value="2026-11-20" selected>76 · 20 nov 2026</option>
+            <option value="2026-11-19">75 · 19 nov 2026</option>
             <option value="2026-11-18">74 · 18 nov 2026</option>
             <option value="2026-11-17">73 · 17 nov 2026</option>
             <option value="2026-11-16">72 · 16 nov 2026</option>
@@ -96,17 +97,17 @@
       </label>
       <a class="arquivo" href="./arquivo.html">arquivo</a>
       <a class="arquivo" href="./assinar/">assinar</a>
-      <span>2026.11.19 · 75</span>
+      <span>2026.11.20 · 76</span>
     </div>
 
     <header class="mast">
-      <div class="issue">75</div>
+      <div class="issue">76</div>
       <div class="wordmark">Stash</div>
       <div class="meta">Clovis Teixeira<br>bookmarks do X</div>
     </header>
     <section class="autoria" aria-label="Sobre o STASH">
       <a class="autoria-photo" href="https://x.com/clovistx" target="_blank" rel="noopener" aria-label="Perfil de @clovistx no X">
-        <img src="2026-11-19/img/clovis.jpg" width="96" height="96" alt="Foto de perfil de Clovis Teixeira (@clovistx) no X" />
+        <img src="2026-11-20/img/clovis.jpg" width="96" height="96" alt="Foto de perfil de Clovis Teixeira (@clovistx) no X" />
       </a>
       <div class="autoria-body">
         <span class="autoria-kicker">curadoria · conteúdo do X</span>
@@ -124,118 +125,115 @@
         <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="5" width="4" height="14" rx="1"/><rect x="13.5" y="5" width="4" height="14" rx="1"/></svg>
       </button>
       <div class="listen-text">
-        <span class="listen-kicker"><i class="listen-dot" aria-hidden="true"></i><span data-listen-state>Ouça a edição</span> · 1:40</span>
+        <span class="listen-kicker"><i class="listen-dot" aria-hidden="true"></i><span data-listen-state>Ouça a edição</span> · 1:42</span>
         <span class="listen-title">Um papo rápido sobre as notícias de hoje</span>
       </div>
-      <div class="listen-wave" role="slider" tabindex="0" aria-label="Posição do áudio" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-valuetext="0:00 de 1:40" data-listen-wave>
+      <div class="listen-wave" role="slider" tabindex="0" aria-label="Posição do áudio" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-valuetext="0:00 de 1:42" data-listen-wave>
         <div class="bars" aria-hidden="true"></div>
         <div class="bars played" aria-hidden="true"></div>
       </div>
-      <div class="listen-time"><span data-listen-cur>0:00</span><span class="sep">/</span><span data-listen-dur>1:40</span></div>
-      <audio preload="metadata" src="2026-11-19/audio/stash-colega.mp3" data-listen-audio></audio>
+      <div class="listen-time"><span data-listen-cur>0:00</span><span class="sep">/</span><span data-listen-dur>1:42</span></div>
+      <audio preload="metadata" src="2026-11-20/audio/stash-colega.mp3" data-listen-audio></audio>
     </section>
-    <section class="lede">
+    <section class="lede claudinei">
       <article class="lead">
-        <div class="kicker">Claude Code · experimental · @ClaudeDevs</div>
-        <h2>Code Mode deixa o Claude Code escrever um script que encadeia as ferramentas, em vez de chamar uma de cada vez</h2>
-        <p class="deck">O Claude Code ganhou o Code Mode, um jeito experimental de trabalhar com tools em que o Claude escreve um trecho de JavaScript que faz várias chamadas num passo só. O script pode rodar comandos em paralelo, passar o resultado de um para o próximo e devolver só a parte da saída que interessa, e o Claude ainda consegue responder enquanto um comando longo continua rodando.</p>
-        <p class="byline">Post de 17 de novembro · @ClaudeDevs · 2,2 milhões de impressões e mais de 14 mil bookmarks</p>
-        <p>Sem o Code Mode, o Claude pede um Bash, um Read ou um Edit, lê o resultado e só então decide o passo seguinte. Com ele, a lógica vira código: no exemplo da documentação, um pedido para aumentar um limite de retry vira quatro linhas que acham o arquivo com rg, trocam o valor, rodam os testes e devolvem o caminho e a saída. Na conversa você continua vendo as chamadas, como o diff da edição, e o código em si aparece no transcript viewer, aberto com Ctrl+O.</p>
-        <p>A Anthropic recomenda o modo para tarefas com muitas chamadas relacionadas, como uma mudança que se repete em vários arquivos, uma busca cujo resultado precisa de filtro antes de o Claude ler, ou comandos independentes que podem rodar ao mesmo tempo. Há limites claros: o código para depois de dez minutos se não puder ir para background, o classifier do auto mode revisa o script inteiro e não cada chamada, e o recurso só funciona numa sessão interativa no terminal, com o build nativo a partir da v2.1.323.</p>
-        <p>Para ligar, basta subir o claude com CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1. Ficam de fora, por enquanto, o modo -p, o Agent SDK, o painel do VS Code, o app Desktop e as sessões na nuvem, além de contas via Bedrock e outros gateways. Se você tem um refactor repetitivo parado na fila, é o caso de teste ideal.</p>
-        <p class="cta"><a href="https://code.claude.com/docs/en/code-mode">documentação do Code Mode</a> · <a href="https://x.com/ClaudeDevs/status/2122801681939234950">post do @ClaudeDevs</a></p>
+        <div class="kicker">capa · projeto da casa · Grok Bot · @clovistx · @farmDev79</div>
+        <h2>Entre a janta e a hora de dormir das crianças, o Clovis pôs no ar o Claudinei, a "IA nacional" da thread do @farmDev79, só pelo celular e com o Grok Bot</h2>
+        <p class="deck">Na quinta à noite, enquanto preparava a janta e colocava as crianças para dormir, o Clovis, que assina este STASH, transformou uma piada do X num site funcionando. Não abriu notebook: tudo saiu de conversas com o Grok Bot no celular, e o resultado está em claudinei.apps.grok.bot.</p>
+        <p class="byline">Thread de 19 de novembro · @farmDev79 · 2,8 mil likes e 137 respostas · resposta do @clovistx às 22h54 (horário de Brasília)</p>
+        <p>Tudo começou com um post do @farmDev79 no fim da tarde: "Que tal nós DevBR se juntar e criar uma IA nacional? Vai se chamar Claudinei e vai ser especialista em levar vantagem em qualquer negócio". Às 22h54, o @clovistx respondeu com o link e um "quem sabe faz ao vivo, tomai o claudinei". Minutos depois veio a promessa: o que fosse sugerido na thread até a meia-noite seria implementado pelo bot dele. Na madrugada, o próprio @farmDev79 fez o quote: "Nosso amigo Clóvis já se adiantou e fez a primeira versão do Claudinei Severino".</p>
+        <p>O que está no ar é uma paródia caprichada de app de IA. O Dinei atende nos modos Resenha, QI82, que mostra o thinking antes da resposta, e Auto, com modelos como Claudinei Gerson, Severino, Mussum, Caramelo e a variante mineira Claudinei.uai. A assinatura é paga em boleto enviado por e-mail todo dia 05, a chave de API só vale protocolada no Cartório da Craudiobrás, a roleta sorteia o limite de tokens do mês e o modo Obra põe 23 agentes para trabalhar, sendo que um trabalha e 22 dão palpite. Em Planos e boleto há ainda a Tarifa CLT dos tokens, com +50% depois da jornada, adicional noturno depois das 22h e, passando de duas horas extras, "já chama o sindicato".</p>
+        <p>O detalhe mais bonito é o Changelog da comunidade. Cada uma das 48 ideias publicadas no site leva o @ de quem deu a sugestão, de bordões como "só mais um token e é nóis, parça" ao rate limit "na base do jeitinho", e o próprio changelog registra nos bastidores que o Claudinei foi feito por "IAs gringas" via OpenRouter. As rodadas de ideias que chegaram até a meia-noite entraram no código durante a madrugada, e a tela da tarifa CLT já aparecia no site às 00h55.</p>
+        <p>É uma brincadeira, e o próprio site avisa isso em vários lugares, mas o recado para quem trabalha com software é sério: o caminho entre uma thread e um produto testável encolheu para o intervalo entre a panela no fogo e a história de ninar. Vale abrir no celular, que é onde ele nasceu.</p>
+        <p class="cta"><a href="https://claudinei.apps.grok.bot">claudinei.apps.grok.bot</a> · <a href="https://x.com/farmDev79/status/2123498933406044282">thread do @farmDev79</a> · <a href="https://x.com/clovistx/status/2123597560233480679">promessa do @clovistx</a> · <a href="https://x.com/farmDev79/status/2123637132732268565">quote do @farmDev79</a></p>
       </article>
-      <div>
-        <figure>
-          <img style="object-position: center center" src="2026-11-19/img/codemode-exemplo.jpg" alt="Janela de terminal escura com o comando CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1 claude e quatro linhas de JavaScript do exemplo da documentação: busca com rg, split do resultado, edit trocando maxAttempts de 3 para 5 e npm test do retryPolicy" />
-          <figcaption>O exemplo da documentação: achar o arquivo, editar e rodar os testes num passo só.</figcaption>
-        </figure>
-        <figure>
-          <img style="object-position: left center" src="2026-11-19/img/codemode-docs.jpg" alt="Card escuro da documentação do Claude Code com o título Run tool calls from code with Code Mode, na seção Model and responses" />
-          <figcaption>O recurso é experimental, vem desligado e pode mudar ou sumir em qualquer release.</figcaption>
+      <div class="phone-col">
+        <figure class="phone">
+          <div class="phone-frame"><img src="2026-11-20/img/claudinei-home.jpg" width="603" height="1311" alt="Print de iPhone da tela inicial do Claudinei.ia: seletor Claudinei Gerson, abas Resenha, QI82 e Auto, aviso de que hoje é quinta-feira e o Dinei está no ponto, porque sexta e segunda ele costuma tirar atestado, e o título E aí. Eu sou o Dinei, com atalhos como Negocia um desconto e Código com garrafa-pet" /></div>
+          <figcaption>A tela inicial, às 23h23 de quinta, no iPhone do Clovis.</figcaption>
         </figure>
       </div>
+    </section>
+
+    <section class="phones" aria-label="Mais telas do Claudinei">
+      <figure class="phone">
+        <div class="phone-frame"><img loading="lazy" src="2026-11-20/img/claudinei-tarifa-clt.jpg" width="603" height="1311" alt="Print da tela Planos e boleto às 00h55: formas de pagamento Boleto no e-mail dia 05, PIX, DePIX, Dinheiro físico no caixa, Vale-alimentação, Cartão da Caixa e Bolsa Família, e a tabela Tarifa CLT dos tokens, com preço normal na jornada de 8h por dia, +50% depois da jornada, adicional noturno depois das 22h, domingo em dobro e Já chama o sindicato depois de 2h extras" /></div>
+        <figcaption>Tarifa CLT dos tokens, no ar às 00h55.</figcaption>
+      </figure>
+      <figure class="phone">
+        <div class="phone-frame"><img loading="lazy" src="2026-11-20/img/claudinei-planos.jpg" width="603" height="1311" alt="Print da tela Planos e boleto com o fim do plano PRO, que inclui passar a culpa para outro agente, a Creyde, e API autenticada com protocolo em cartório, as formas de pagamento Boleto no e-mail dia 05, Vale-alimentação, Cartão da Caixa e Bolsa Família, e a Roleta de tokens com valores de R$ 20, R$ 50 e R$ 100 e o botão Girar roleta" /></div>
+        <figcaption>Plano PRO, formas de pagamento e a roleta de tokens.</figcaption>
+      </figure>
+      <figure class="phone">
+        <div class="phone-frame"><img loading="lazy" src="2026-11-20/img/claudinei-api.jpg" width="603" height="1311" alt="Print da tela API autenticada com os passos Requerimento, Fila virtual, Taxa da casa e Chave autenticada, e um cartão com carimbo AUTENTICADA, o protocolo CRA-DINEI-004812 do Cartório da Craudiobrás, marcado como encenação, e uma chave de brincadeira" /></div>
+        <figcaption>A chave de API protocolada no cartório de mentirinha.</figcaption>
+      </figure>
+      <figure class="phone">
+        <div class="phone-frame"><img loading="lazy" src="2026-11-20/img/claudinei-qi82.jpg" width="603" height="1311" alt="Print do modo QI82 com o thinking do Claudinei Gerson em cinco passos numerados sobre como negociar um desconto com um fornecedor até sexta, seguido do começo da resposta, Claro, vamos lá" /></div>
+        <figcaption>No modo QI82, o thinking aparece antes da resposta.</figcaption>
+      </figure>
+      <figure class="phone">
+        <div class="phone-frame"><img loading="lazy" src="2026-11-20/img/claudinei-menu.jpg" width="603" height="1311" alt="Print do menu lateral do Claudinei.ia com o botão Nova resenha, conversas recentes, os links Planos e boleto, API autenticada e Changelog da comunidade, o saldo Tokens em reais de R$ 18,40 com a Taxa do levei vantagi de +25%, o botão Entrar na Craudiobrás e as etiquetas Data center RJ e Escala 4×3" /></div>
+        <figcaption>O menu, com saldo em reais e o Changelog da comunidade.</figcaption>
+      </figure>
     </section>
 
     <div class="sec">
       <span class="idx">02</span>
       <h2>Radar</h2>
-      <span class="kicker">scraping local em Rust, um desktop no navegador, disco em S3 para agentes, um benchmark de ataques e vídeos recriados</span>
+      <span class="kicker">uma estante de recursos para design engineers e um adapter que dispensa o thinking</span>
     </div>
     <div class="classifieds radar2">
-      <div class="ad span2">
-        <div class="kicker">open source · Rust · scraping · @firecrawl</div>
-        <figure><img style="object-position: center center" src="2026-11-19/img/firecrawl-local.jpg" alt="Tela branca do vídeo de lançamento com o número 230x em laranja, a frase less memory, a indicação 11mb idle e um medidor circular em degradê" /></figure>
-        <h3>Firecrawl Local reescreve o scraper em Rust para o agente raspar a web na sua máquina, com 11 MB de memória parado</h3>
-        <p>A Firecrawl reconstruiu o repositório para que os agentes façam scraping localmente. O Firecrawl Local é um binário único em Rust que faz scrape, crawl e map sem banco, fila ou container, e a empresa diz que ele é 37 vezes mais rápido que a versão self-hosted e usa 230 vezes menos memória, com 11 MB em idle. Tudo é open source e compatível de saída com o MCP e os SDKs da Firecrawl.</p>
-        <p>O comando serve sobe a API v2 da Firecrawl em localhost, na porta 3002, então código que já fala com a Firecrawl roda sem mudança. Páginas que dependem de JavaScript são renderizadas no Chrome que você já tem instalado, enquanto busca e páginas que recusam a sua máquina vão para a Firecrawl Cloud, comportamento que dá para desligar com FIRECRAWL_CLOUD=off.</p>
-        <p class="cta"><a href="https://www.firecrawl.dev/changelog/firecrawl-local">anúncio</a> · <a href="https://docs.firecrawl.dev/quickstarts/firecrawl-local">quickstart</a> · <a href="https://github.com/firecrawl/firecrawl">GitHub</a> · <a href="https://x.com/firecrawl/status/2123096169630912637">post da @firecrawl</a></p>
+      <div class="ad">
+        <div class="kicker">design engineering · curadoria · @reidophotoshops</div>
+        <figure><img style="object-position: left center" src="2026-11-20/img/design-engineer-resources.jpg" alt="Card escuro com o título Design Engineer Resources, a frase Curated resources for designers who code, a assinatura by Eduardo de Cesaro e cartões flutuantes com os rótulos Motion, Components, Design Systems e Fonts" /></figure>
+        <h3>Design Engineer Resources junta numa página só as ferramentas de quem desenha e escreve código</h3>
+        <p>O @reidophotoshops soltou a sua lista curada de recursos para design engineers, com filtro por Free, Freemium e Paid. Ela vai de referências como Mobbin e 60fps a componentes como shadcn/ui e 21st.dev, passando por ícones, fontes, motion com GSAP e Motion, design systems, incluindo uma lista de Design Systems Brasileiros, e uma seção de Agent Skills. Entre as AI Tools aparecem Cursor e o próprio Grok Bot.</p>
+        <p>O post passou de 2,5 mil bookmarks, o que diz bastante sobre a vontade de ter tudo isso num só lugar. Vale salvar e usar como checklist na próxima vez que um protótipo precisar sair bonito.</p>
+        <p class="cta"><a href="https://resources.cesaroeduardo.com/">resources.cesaroeduardo.com</a> · <a href="https://x.com/reidophotoshops/status/2123446081421824313">post do @reidophotoshops</a></p>
       </div>
       <div class="ad">
-        <div class="kicker">Vercel Labs · desktop streaming · @lahfir</div>
-        <figure><img style="object-position: left top" src="2026-11-19/img/screen-relay-sandbox.jpg" alt="Código TypeScript em fundo escuro que cria um Vercel Sandbox chamado relay-sdk na porta 8080, instala o screen-relay com npm e sobe o desktop com screen-relay up -d --public" /></figure>
-        <h3>screen-relay transmite um desktop para o navegador a até 120 fps e deixa o agente usar a mesma tela</h3>
-        <p>O screen-relay é um projeto experimental da Vercel Labs que captura a tela de um Linux, macOS ou Windows, codifica em H.264 e entrega no navegador, onde você usa mouse e teclado normalmente. Um agente controla o mesmo desktop pelo CLI, por um SDK em Node ou pela API HTTP e WebSocket, tirando screenshots e mandando cliques, teclas e texto.</p>
-        <p>Num Vercel Sandbox de 8 vCPUs, o projeto chega a 120 fps. Áudio, clipboard e encoding por hardware ainda não são suportados, e a instalação é um npm i -g screen-relay seguido de screen-relay up.</p>
-        <p class="cta"><a href="https://screen-relay.dev/docs">documentação</a> · <a href="https://github.com/vercel-labs/screen-relay">GitHub</a> · <a href="https://x.com/lahfir/status/2123260459537371242">post do @lahfir</a></p>
-      </div>
-      <div class="ad">
-        <div class="kicker">open source · filesystem · search · @dom_gag_96</div>
-        <figure><img style="object-position: center center" src="2026-11-19/img/skywake.jpg" alt="Card claro do Skywake com o logo e o título Fast files and search for your agents and apps, seguido da descrição open-source filesystem and search on your own S3 bucket" /></figure>
-        <h3>Skywake transforma um bucket S3 num disco local e dá a cada agente a própria cópia do workspace em 10 ms</h3>
-        <p>O Skywake é um filesystem e um search engine open source para agentes, lançado sob Apache 2.0. Ele monta o seu bucket S3 como um disco rápido e cria cópias do workspace em 10 ms, de modo que cem agentes trabalhando num repositório de 10 GB ocupam 30 GB, e não 1 TB, o que o projeto calcula como um custo 33 vezes menor.</p>
-        <p>A busca funciona por significado, por palavras exatas ou pelos dois, com um índice que também é copiado para cada agente. O Git continua rodando normalmente dentro de cada cópia, e dá para fazer self-host com Docker ou Kubernetes.</p>
-        <p class="cta"><a href="https://skywake.dev">skywake.dev</a> · <a href="https://x.com/dom_gag_96/status/2122721431628755431">post do @dom_gag_96</a></p>
-      </div>
-      <div class="ad">
-        <div class="kicker">segurança de agentes · benchmark · @PromptArmor</div>
-        <figure><img style="object-position: center top" src="2026-11-19/img/frontierbreach.jpg" alt="Gráfico de barras do FrontierBreach com a taxa de sucesso de ataques contra agentes em tarefas corporativas: Gemini 4 Carbon com 2,4%, Gemini 4 Argon com 4,3%, GPT-6 Astra com 7,6%, Claude Fable 5.2 e Claude Opus 5 com 10%, até Beam 1.0 com 72,9% e Grok 4.5 com 91,4%" /></figure>
-        <h3>FrontierBreach mede quantas vezes um ataque consegue desviar um agente numa tarefa corporativa, e a distância entre os modelos é enorme</h3>
-        <p>A PromptArmor lançou o FrontierBreach, um benchmark de attack success rate em workflows agênticos de empresa. A tese é que os benchmarks atuais subestimam o risco, e por isso os cenários usam tarefas corporativas realistas e cadeias de ataque que terminam em consequências concretas, como ransomware, exfiltração de dados e phishing.</p>
-        <p>No primeiro ranking, com k=5 e intervalo de confiança de 95%, o Gemini 4 Carbon foi enganado em 2,4% das tentativas, o GPT-6 Astra em 7,6% e o Claude Fable 5.2 em 10%, enquanto o Grok 4.5 chegou a 91,4%. O post passou de 1,1 milhão de impressões.</p>
-        <p class="cta"><a href="https://x.com/PromptArmor/status/2123114516498252054">post da @PromptArmor</a></p>
-      </div>
-      <div class="ad">
-        <div class="kicker">vídeo · skills · @HyperFrames_ · @Rames_Jusso</div>
-        <figure><img style="object-position: center center" src="2026-11-19/img/hyperframes-prisma.jpg" alt="Quadro do vídeo comparativo com o rótulo Ours, reverse-any-video, mostrando um prisma desenhado em fundo escuro que decompõe um feixe de luz branca num arco-íris" /></figure>
-        <h3>A skill reverse-any-video do HyperFrames recria um vídeo como projeto editável em 81 segundos</h3>
-        <p>James Russo apresentou a reverse-any-video, a skill que o time dele construiu para o HyperFrames, o framework da HeyGen que renderiza HTML como vídeo, e a colocou lado a lado com a REA-Video, outra skill que circula para o mesmo fim. Na comparação dele, a reconstrução levou 81 segundos contra 1.595, cerca de 20 vezes mais rápido, com SSIM de 0,96 contra 0,78 em relação ao original.</p>
-        <p>A skill refaz o vídeo como um projeto HyperFrames que continua editável, com cortes, tempos, textos e áudio conferidos quadro a quadro, e faz parte do plano Pro. A documentação pede que você só recrie vídeos que tem direito de usar.</p>
-        <p class="cta"><a href="https://github.com/heygen-com/hyperframes/blob/main/skills/reverse-any-video/SKILL.md">SKILL.md</a> · <a href="https://x.com/Rames_Jusso/status/2122465287354409304">post do @Rames_Jusso</a></p>
+        <div class="kicker">LoRA · Qwen3.8-27B · Hermes Agent · @yb2698</div>
+        <figure><img style="object-position: center center" src="2026-11-20/img/hermes-adapter-resultados.jpg" alt="Gráfico de barras Hermes adapter results: no SWE-bench Pro hard 51, o modelo base marca 29,4 e o adapter 43,1, com 56% menos tool calls; no Terminal-Bench 2.1, o base marca 44,7 e o adapter 58,8, com 70% menos tool calls" /></figure>
+        <h3>Um adapter LoRA treinado com RL faz o Qwen3.8-27B sem thinking render como o modelo pensando no máximo</h3>
+        <p>O @yb2698 anunciou o adapter do Hermes Agent, da @NousResearch, para o Qwen3.8-27B, publicado no Hugging Face pela harness-hub sob Apache 2.0. Treinado com reinforcement learning para ser o modelo por trás do Hermes em tarefas de engenharia e terminal, ele leva o SWE-bench Pro (hard 51) de 29,4% para 43,1% e o Terminal-Bench 2.1 de 44,7% para 58,8%, com o thinking desligado.</p>
+        <p>Com isso, o adapter empata com o modelo base pensando no esforço máximo, gerando de 3,5 a 4,4 vezes menos tokens por tarefa, e o card recomenda manter o thinking desligado. Dá para servir com vLLM ou rodar a versão GGUF no llama.cpp sobre um GGUF do modelo base, e o card avisa que os números valem para o harness do Hermes e não se comparam com os do card original do Qwen.</p>
+        <p class="cta"><a href="https://huggingface.co/harness-hub/Qwen3.8-27B-hermes-adapted">model card</a> · <a href="https://huggingface.co/harness-hub/Qwen3.8-27B-hermes-adapted-GGUF">GGUF</a> · <a href="https://x.com/yb2698/status/2123421903784136769">post do @yb2698</a></p>
       </div>
     </div>
 
     <div class="sec">
       <span class="idx">03</span>
       <h2>Hora do Hands-on</h2>
-      <span class="kicker">três testes de dez minutos · pra quinta</span>
+      <span class="kicker">três testes de dez minutos · pra sexta</span>
     </div>
 
     <div class="classifieds handson">
       <div class="ad">
-        <div class="kicker">teste 1 · Code Mode</div>
-        <h3>Ligue o Code Mode e entregue a ele um refactor repetitivo</h3>
-        <p>Atualize o Claude Code para a v2.1.323 ou mais nova, abra o terminal com CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1 claude e peça uma mudança que se repete em vários arquivos, como renomear uma opção ou trocar um import. Depois abra o transcript com Ctrl+O, leia o script que ele escreveu e compare o tempo com o da mesma tarefa no modo normal.</p>
+        <div class="kicker">teste 1 · Claudinei</div>
+        <h3>Abra o Claudinei no celular e compare o modo Resenha com o QI82</h3>
+        <p>Entre em claudinei.apps.grok.bot pelo celular, faça a mesma pergunta no modo Resenha e depois no QI82, e repare em como o thinking aparece antes da resposta. Termine no Changelog da comunidade e conte quantas ideias da thread você reconhece na interface.</p>
       </div>
       <div class="ad">
-        <div class="kicker">teste 2 · Firecrawl Local</div>
-        <h3>Raspe uma documentação inteira para markdown sem sair da máquina</h3>
-        <p>Instale com cargo install firecrawl-local e rode um crawl com --limit 50 e --out ./pages numa documentação que você consulta sempre. Em seguida suba o firecrawl-local serve com FIRECRAWL_CLOUD=off, aponte um SDK da Firecrawl para localhost:3002 e veja se o seu código atual funciona sem nenhuma mudança.</p>
+        <div class="kicker">teste 2 · Design Engineer Resources</div>
+        <h3>Troque um componente do seu protótipo por um da lista</h3>
+        <p>Abra a lista do @reidophotoshops, filtre por Free e escolha um item de Components ou de Motion. Aplique num protótipo que já existe, como um botão, um loader ou uma transição, e veja quanto o acabamento melhora em dez minutos.</p>
       </div>
       <div class="ad">
-        <div class="kicker">teste 3 · screen-relay</div>
-        <h3>Abra o seu desktop no navegador e deixe um agente tirar o screenshot</h3>
-        <p>Rode npm i -g screen-relay e screen-relay up, abra o link do viewer e use a máquina pelo navegador por alguns minutos. Depois peça ao seu agente para tirar um screenshot e clicar em algo pelo CLI, e repare na latência entre o comando e o que aparece na tela.</p>
+        <div class="kicker">teste 3 · do jeito do Clovis</div>
+        <h3>Pegue uma ideia de thread e peça um protótipo ao seu agente pelo celular</h3>
+        <p>Escolha um post que você salvou esta semana e, sem abrir o notebook, peça ao seu agente uma primeira versão no ar a partir dele. Anote quanto tempo levou da primeira mensagem até o link funcionando e o que você precisou corrigir no caminho.</p>
       </div>
     </div>
 
     <footer>
-      <span>ed. 75 · 19 nov 2026 · 6 bookmarks</span>
+      <span>ed. 76 · 20 nov 2026 · 5 bookmarks</span>
       <a class="badge-x" href="https://x.com/clovistx" target="_blank" rel="noopener"><i aria-hidden="true"></i>bookmarks de <b>@clovistx</b></a>
       <label class="ed-nav">
         <span>ed.</span>
         <select data-editions aria-label="Edição">
-            <option value="2026-11-19" selected>75 · 19 nov 2026</option>
+            <option value="2026-11-20" selected>76 · 20 nov 2026</option>
+            <option value="2026-11-19">75 · 19 nov 2026</option>
             <option value="2026-11-18">74 · 18 nov 2026</option>
             <option value="2026-11-17">73 · 17 nov 2026</option>
             <option value="2026-11-16">72 · 16 nov 2026</option>
@@ -326,11 +324,11 @@
     var cur = root.querySelector("[data-listen-cur]");
     var dur = root.querySelector("[data-listen-dur]");
     var state = root.querySelector("[data-listen-state]");
-    var peaks = [100,71,56,65,69,53,73,58,73,57,62,57,63,52,51,66,61,45,63,62,60,80,65,48,65,43,60,67,63,59,55,55,43,66,52,50,47,67,64,51,57,55,64,52,56,66,63,60,69,70,47,53,52,51,68,54,52,63,59,56,44,61,59,43,72,52,43,59,59,61,53,36];
+    var peaks = [100,79,63,84,64,79,70,64,51,74,86,72,65,56,67,57,60,64,60,59,65,50,69,71,62,58,63,61,66,70,67,75,80,58,51,66,43,79,59,78,68,60,60,66,48,61,79,67,52,51,54,66,58,79,80,56,51,50,74,75,59,46,70,61,51,73,59,65,55,63,67,44];
     wave.querySelectorAll(".bars").forEach(function (el) {
       el.innerHTML = peaks.map(function (h) { return '<i style="height:' + h + '%"></i>'; }).join("");
     });
-    var total = 99.55;
+    var total = 102.11;
     function fmt(t) { t = Math.max(0, Math.floor(t)); return Math.floor(t / 60) + ":" + String(t % 60).padStart(2, "0"); }
     function fmtTotal(t) { t = Math.round(t); return Math.floor(t / 60) + ":" + String(t % 60).padStart(2, "0"); }
     function paint(t) {
