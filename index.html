@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>STASH / 82 · 26 nov 2026</title>
+  <title>STASH / 83 · 27 nov 2026</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
@@ -17,12 +17,13 @@
 <body>
   <div class="shell">
     <div class="hud">
-      <span>GRU / <b>qui</b></span>
+      <span>GRU / <b>sex</b></span>
       <span>signal · stash</span>
       <label class="ed-nav">
         <span>ed.</span>
         <select data-editions aria-label="Edição">
-            <option value="2026-11-26" selected>82 · 26 nov 2026</option>
+            <option value="2026-11-27" selected>83 · 27 nov 2026</option>
+            <option value="2026-11-26">82 · 26 nov 2026</option>
             <option value="2026-11-25">81 · 25 nov 2026</option>
             <option value="2026-11-24">80 · 24 nov 2026</option>
             <option value="2026-11-23">79 · 23 nov 2026</option>
@@ -108,17 +109,17 @@
       </label>
       <a class="arquivo" href="./arquivo.html">arquivo</a>
       <a class="arquivo" href="./assinar/">assinar</a>
-      <span>2026.11.26 · 82</span>
+      <span>2026.11.27 · 83</span>
     </div>
 
     <header class="mast">
-      <div class="issue">82</div>
+      <div class="issue">83</div>
       <div class="wordmark">Stash</div>
       <div class="meta">Clovis Teixeira<br>bookmarks do X</div>
     </header>
     <section class="autoria" aria-label="Sobre o STASH">
       <a class="autoria-photo" href="https://x.com/clovistx" target="_blank" rel="noopener" aria-label="Perfil de @clovistx no X">
-        <img src="2026-11-26/img/clovis.jpg" width="96" height="96" alt="Foto de perfil de Clovis Teixeira (@clovistx) no X" />
+        <img src="2026-11-27/img/clovis.jpg" width="96" height="96" alt="Foto de perfil de Clovis Teixeira (@clovistx) no X" />
       </a>
       <div class="autoria-body">
         <span class="autoria-kicker">curadoria · conteúdo do X</span>
@@ -136,129 +137,129 @@
         <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="5" width="4" height="14" rx="1"/><rect x="13.5" y="5" width="4" height="14" rx="1"/></svg>
       </button>
       <div class="listen-text">
-        <span class="listen-kicker"><i class="listen-dot" aria-hidden="true"></i><span data-listen-state>Ouça a edição</span> · 1:42</span>
+        <span class="listen-kicker"><i class="listen-dot" aria-hidden="true"></i><span data-listen-state>Ouça a edição</span> · 2:01</span>
         <span class="listen-title">Um papo rápido sobre as notícias de hoje</span>
       </div>
-      <div class="listen-wave" role="slider" tabindex="0" aria-label="Posição do áudio" aria-valuemin="0" aria-valuemax="102" aria-valuenow="0" aria-valuetext="0:00 de 1:42" data-listen-wave>
+      <div class="listen-wave" role="slider" tabindex="0" aria-label="Posição do áudio" aria-valuemin="0" aria-valuemax="121" aria-valuenow="0" aria-valuetext="0:00 de 2:01" data-listen-wave>
         <div class="bars" aria-hidden="true"></div>
         <div class="bars played" aria-hidden="true"></div>
       </div>
-      <div class="listen-time"><span data-listen-cur>0:00</span><span class="sep">/</span><span data-listen-dur>1:42</span></div>
-      <audio preload="metadata" src="2026-11-26/audio/stash-colega.mp3" data-listen-audio></audio>
+      <div class="listen-time"><span data-listen-cur>0:00</span><span class="sep">/</span><span data-listen-dur>2:01</span></div>
+      <audio preload="metadata" src="2026-11-27/audio/stash-colega.mp3" data-listen-audio></audio>
     </section>
     <section class="lede">
       <article class="lead">
-        <div class="kicker">capa · Inkling 2 Mini · inferência local · @atomic_chat_hq · @CerebralCoding_ · @TeksEdge · @pcuenq</div>
-        <h2>O Inkling 2 Mini virou o modelo local da semana: 1 bit no iPhone, 254 tok/s no MLX-Serve e nvfp4 no llama.cpp</h2>
-        <p class="deck">Quatro dos seis bookmarks desta quinta falam do mesmo modelo. Seis dias depois do lançamento, o looped MoE da Thinking Machines ganhou uma versão de 6,88 GB que roda no iPhone 16 Pro, kernels novos no MLX-Serve, vision com 160K de contexto num Mac de 24 GB e suporte no llama.cpp ao formato em que foi publicado.</p>
-        <p class="byline">Posts de 25 e 26 de novembro (horário de Brasília) · @atomic_chat_hq, @CerebralCoding_, @TeksEdge e @pcuenq · só o vídeo do iPhone passou de 184 mil impressões e 1.400 bookmarks</p>
-        <p>O post mais salvo do dia é do time do Atomic Chat: o Inkling 2 Mini, com 26 bilhões de parâmetros no total e 3,4 bilhões ativos por token, rodando inteiro no iPhone 16 Pro, sem nuvem. Para caber no aparelho, o modelo foi quantizado a 1 bit, num GGUF de 6,88 GB que o app lista como AD-IQ1_S, e o time afirma que ele preserva 81,1% de acurácia. O truque que deixa a conversa fluida é o Experts Offloading: como se trata de um MoE, só os experts da vez precisam estar na RAM, e o resto fica na memória flash e é carregado sob demanda, o que, segundo eles, deixa o Inkling 40% mais rápido do que sem a otimização.</p>
-        <p>Na outra ponta do espectro está Sebastian Christiansen (@CerebralCoding_), que contribuiu com kernels e otimizações de vision recém-incorporados ao main do MLX-Serve, no PR #1331, que vão sair na próxima release. Num M5 Ultra de 256 GB, o decode com um usuário foi de 179 para 254 tok/s, com pesos de 8 bits e o drafter DFlash2; o throughput somado de oito usuários subiu de 297 para 452 tok/s, o prefill de 16K tokens passou de 4.801 para 6.019 tok/s, e o encode de um screenshot de 920 tokens caiu de cerca de 60 para 37 ms, graças a kernels de Metal fundidos. É o tipo de número que transforma um Mac Studio em servidor de inferência para um time pequeno.</p>
-        <p>No meio do caminho estão os Macs que a maioria tem na mesa. A Inco AI lançou o Splash 1.7.3, que leva vision ao Inkling 2 Mini e traz uma configuração recomendada para máquinas de 24 GB: com o GGUF UD-IQ3_XXS da Unsloth, um M6 de 24 GB chega a 79 tok/s em código e 59 tok/s em prosa, com 160K tokens de contexto e imagens ativadas. A release também refez o gerenciamento de memória em conversas longas, e num M5 Max de 36 GB um papo que estourava em 101K tokens foi até 261K. David Hendrickson (@TeksEdge) resumiu o ganho: mais contexto e multimodalidade espremidos da mesma memória unificada.</p>
-        <p>Para fechar o pacote, Pedro Cuenca (@pcuenq), do Hugging Face, avisou que o llama.cpp passou a suportar nvfp4 no Apple Silicon, além de CUDA, AMD, Windows e Vulkan. Isso importa porque o Inkling 2 Mini foi publicado nativamente em nvfp4 com mxfp8, e manter os experts nesse formato preserva a fidelidade do checkpoint original, sem uma nova rodada de quantization. Um único comando sobe o servidor: <code>llama serve -hf ggml-org/Inkling-2-Mini-GGUF:NVFP4</code>.</p>
-        <p>Somadas, as quatro notícias mostram a velocidade com que o ecossistema aberto abraça um modelo popular: em menos de uma semana, o mesmo checkpoint ganhou três runtimes otimizados e uma versão de bolso. Para quem escolhe modelo local para coding e agentes, o Inkling 2 Mini virou a referência a bater.</p>
-        <p class="cta"><a href="https://x.com/atomic_chat_hq/status/2125673484076593218">vídeo do @atomic_chat_hq</a> · <a href="https://atomic.chat">Atomic Chat</a> · <a href="https://x.com/CerebralCoding_/status/2125877745158607113">post do @CerebralCoding_</a> · <a href="https://github.com/ddalcu/mlx-serve/pull/1331">PR #1331 do MLX-Serve</a> · <a href="https://x.com/TeksEdge/status/2125663762627912109">post do @TeksEdge</a> · <a href="https://github.com/incoai/splash/releases">Splash 1.7.3</a> · <a href="https://x.com/pcuenq/status/2125650516470620169">post do @pcuenq</a> · <a href="https://huggingface.co/ggml-org/Inkling-2-Mini-GGUF">GGUF em nvfp4</a></p>
+        <div class="kicker">capa · segurança · 1Password · VaultWarden · @AkitaOnRails · @gregosuri</div>
+        <h2>A 1Password foi invadida pelo GitHub de um funcionário, e o Akita aproveitou para defender o cofre de senhas em casa</h2>
+        <p class="deck">Os cofres dos clientes ficaram intactos, segundo a empresa, mas o atacante levou nomes, e-mails e metadados de contas, copiou source code privado e chegou ao CI/CD. O incidente reacendeu a velha discussão sobre confiar todas as senhas a um único fornecedor.</p>
+        <p class="byline">Posts de 25 e 26 de novembro (horário de Brasília) · @AkitaOnRails, citando @gregosuri · o post do Akita passou de 1.500 curtidas</p>
+        <p>Segundo o comunicado que a 1Password publicou em 25 de novembro, a investigação começou no dia 19, quando a empresa encontrou sinais de que alguém havia tomado a conta corporativa de GitHub de um funcionário. Com esse acesso, o atacante leu source code, empurrou código malicioso para serviços de backend e, por meio dele, baixou registros administrativos de uma parte dos clientes: nomes, e-mails de login, identificadores de conta, datas de criação e do último acesso, chaves públicas, parâmetros do protocolo SRP e tokens presentes em links de convite, provisionamento e recuperação de conta.</p>
+        <p>A empresa insiste no que não foi tocado: os cofres, os itens dentro deles, as chaves que os protegem, as recovery keys e os apps. A senha mestra e a Secret Key nunca ficam nos servidores da 1Password, e é esse desenho que segura o estrago. Ainda assim, o atacante copiou repositórios privados e entrou no CI/CD, onde ficam secrets de infraestrutura; todas as credenciais possivelmente expostas foram rotacionadas, e o código enviado por e-mail nos fluxos de convite e recuperação passou de seis dígitos para dez caracteres alfanuméricos. Um relatório de causa raiz deve sair nas próximas semanas.</p>
+        <p>O usuário @gregosuri resumiu o mal-estar de muita gente: mesmo sem cofre vazado, a confiança numa empresa que deveria ter o padrão mais alto de segurança saiu abalada. Fabio Akita (@AkitaOnRails) citou o post para parabenizar quem seguiu o conselho dele e mantém um gerenciador auto-hospedado, como o VaultWarden, a implementação em Rust compatível com os clientes do Bitwarden. Para ele, guardar todas as senhas num único lugar, confiando num terceiro, é um ponto único de falha grande demais para ignorar.</p>
+        <p>O argumento tem contrapartida, porque auto-hospedar transfere para você o patch, o backup e a exposição do servidor. O recado prático vale para os dois lados: quem usa a 1Password não precisa trocar nada, segundo a empresa, mas deve desconfiar de qualquer e-mail, SMS ou ligação inesperada sobre convite ou recuperação de conta, que é exatamente o tipo de phishing que um vazamento de nomes e e-mails alimenta.</p>
+        <p class="cta"><a href="https://1password.com/blog/update-on-nov-2026-security-incident">comunicado da 1Password</a> · <a href="https://x.com/AkitaOnRails/status/2125964337411932294">post do @AkitaOnRails</a> · <a href="https://x.com/gregosuri/status/2125641941903921380">post do @gregosuri</a> · <a href="https://github.com/dani-garcia/vaultwarden">VaultWarden no GitHub</a> · <a href="https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/">cobertura do TechCrunch</a></p>
       </article>
       <div>
         <figure>
-          <img src="2026-11-26/img/capa-mlx-serve.jpg" alt="Gráfico de barras em fundo escuro com o título Inkling 2 Mini just got a lot faster on MLX-Serve: decode de um usuário de 179 para 254 tok/s, throughput de oito usuários de 297 para 452, prefill de 16K de 4.801 para 6.019 e encode de vision de cerca de 60 para 37 ms, com as barras novas em laranja" />
-          <figcaption>O antes e depois do PR #1331 do MLX-Serve num M5 Ultra de 256 GB.</figcaption>
+          <img src="2026-11-27/img/capa-1password.jpg" alt="Ilustração com o logotipo da 1Password em azul-claro, numa placa em forma de fechadura sobre fundo azul-marinho" />
+          <figcaption>A marca da 1Password na ilustração que o The Verge usou na cobertura do incidente.</figcaption>
         </figure>
         <figure>
-          <img style="object-position: center top" src="2026-11-26/img/inkling-splash-173.jpg" alt="Notas da release Splash 1.7.3 no GitHub: vision para o Inkling-2-Mini, até 79 tok/s em código e 59 em prosa num M6 de 24 GB com 160K tokens de contexto, e conversas longas que chegaram a 261K tokens num M5 Max de 36 GB" />
-          <figcaption>As notas do Splash 1.7.3: vision, 160K de contexto em 24 GB e conversas de 261K tokens.</figcaption>
+          <img class="card" src="2026-11-27/img/vaultwarden-card.jpg" alt="Card do GitHub do repositório dani-garcia/vaultwarden: Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs, com 221 contribuidores, 3 mil discussões e 72 mil estrelas" />
+          <figcaption>O VaultWarden, servidor em Rust compatível com o Bitwarden, tem 72 mil estrelas no GitHub.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="sec">
+      <span class="idx">02</span>
+      <h2>Inkling 2 Mini, semana dois</h2>
+      <span class="kicker">MLX-Serve novo, Strata em GPU de 4 GiB e o placar contra o Sonnet</span>
+    </div>
+
+    <section class="lede-grid">
+      <article class="story">
+        <div class="kicker">modelos locais · Inkling 2 Mini · MLX-Serve · Strata · exo · Ollama · @ddalcu · @mikan_919_main · @thinkymachines</div>
+        <h3><a href="https://x.com/ddalcu/status/2126119551980949820">O Inkling 2 Mini ganhou MLX-Serve novo, pack para placas de 4 GiB e um placar contra o Claude Sonnet 5.5</a></h3>
+        <p>Um dia depois de virar capa do STASH, o Inkling 2 Mini voltou com mais três bookmarks. Na noite de quinta, @ddalcu publicou o MLX-Serve v26.11.4, que roda o modelo direto do checkpoint original, de um pack do mlx-lm ou do oMLX, com leitura de imagens, o draft head que vem com ele e o drafter DFlash2 conferindo uma pequena árvore de continuações por passada. As notas falam em decode de 10% a 13% mais rápido, leitura de prompt cerca de 20% mais rápida do M1 ao M4 e sessões longas de agente que retomam de onde pararam: no Gemma 4 26B com 80K tokens, o tempo até o primeiro token caiu de 20 para 2 segundos. Para o autor, o Inkling já supera o Qwen 27B, sobretudo quando se explora a janela de 1M de contexto.</p>
+        <p>Na outra ponta do hardware, o usuário japonês @mikan_919_main salvou o Inkling-2-Mini-Strata, pack do motor Strata que roda o modelo em placas de vídeo a partir de 4 GiB, deixando na RAM do sistema os experts que não cabem na GPU. Há versões feitas para 12, 16 e 24 GiB, e a de 24 GiB, segundo a página no Hugging Face, bateu com o original em todos os testes. “Não consigo entender como isso existe. Que compressão é essa?”, escreveu ele, num post que passou de 700 curtidas.</p>
+        <p>Já a Thinking Machines destacou o trabalho da exo: num Mac Studio M5 Ultra, o Inkling 2 Mini chega a 210 tok/s de decode e constrói um app nativo de clima 1,8 vez mais rápido e 11 vezes mais barato que o Claude Sonnet 5.5, a preços de API. No vídeo, o placar final marca 8min37s e US$ 0,20 contra 15min54s e US$ 2,22. Para quem quer só experimentar, o Ollama tem suporte desde o primeiro dia: basta rodar <code>ollama run inkling-2-mini</code> e apontar o seu harness favorito para ele.</p>
+        <p class="cta"><a href="https://github.com/ddalcu/mlx-serve/releases/tag/v26.11.4">release v26.11.4</a> · <a href="https://x.com/ddalcu/status/2126119551980949820">post do @ddalcu</a> · <a href="https://huggingface.co/strata-engine/Inkling-2-Mini-Strata">Inkling-2-Mini-Strata</a> · <a href="https://x.com/mikan_919_main/status/2125901184938684800">post do @mikan_919_main</a> · <a href="https://x.com/thinkymachines/status/2125691649888334056">post da @thinkymachines</a> · <a href="https://x.com/exolabs/status/2123953913342935486">vídeo da @exolabs</a></p>
+      </article>
+      <div>
+        <figure>
+          <img src="2026-11-27/img/mlx-serve-m5u.jpg" alt="Painel escuro de benchmarks do MLX-Serve num M5 Ultra de 80 núcleos e 256 GB, com tabelas no topo e gráficos de linhas e de barras coloridas abaixo" />
+          <figcaption>O painel de benchmarks que acompanha o anúncio da v26.11.4, rodado num M5 Ultra de 256 GB.</figcaption>
         </figure>
         <figure>
-          <img class="card" src="2026-11-26/img/inkling-nvfp4-gguf.jpg" alt="Card do Hugging Face do repositório ggml-org/Inkling-2-Mini-GGUF, em fundo degradê azul e laranja" />
-          <figcaption>O repositório da ggml-org com o Inkling 2 Mini em GGUF, incluindo a variante NVFP4.</figcaption>
+          <img style="object-fit: contain; background: #0b0b0d" src="2026-11-27/img/inkling-exo-placar.jpg" alt="Placar final do vídeo da exo em fundo escuro: Inkling 2 Mini no M5 Ultra com 8:37 e US$ 0,20, ao lado de Claude Sonnet 5.5 com 15:54 e US$ 2,22" />
+          <figcaption>O placar final da exo: 8min37s e US$ 0,20 para o Inkling, 15min54s e US$ 2,22 para o Sonnet 5.5.</figcaption>
+        </figure>
+        <figure>
+          <img src="2026-11-27/img/inkling-ollama-2048.jpg" alt="Frame do vídeo do Ollama: duas janelas com um jogo 2048 em tons de bege e laranja e, abaixo, um terminal com o modelo inkling-2-mini" />
+          <figcaption>Um frame do vídeo do Ollama, com um clone de 2048 ao lado do terminal rodando o inkling-2-mini.</figcaption>
         </figure>
       </div>
     </section>
 
     <div class="pair gallery">
       <figure>
-        <img src="2026-11-26/img/capa-iphone-resposta.jpg" alt="Tela do iPhone 16 Pro no app Atomic Chat com o Inkling 2 Mini respondendo à pergunta Find the last news about inkling 2 mini: lançado em 20 de novembro de 2026 como modelo de pesos abertos, um looped MoE de 26,4B com 3,4B de parâmetros ativos e contexto de 1 milhão de tokens" />
-        <figcaption>No iPhone 16 Pro, o Inkling 2 Mini responde, com busca ligada, sobre o próprio lançamento.</figcaption>
+        <img src="2026-11-27/img/inkling-exo-clima.jpg" alt="Frame do vídeo da exo com dois painéis lado a lado: Inkling 2 Mini já concluído em 8:37 por US$ 0,20 e Claude Sonnet 5.5 ainda em 14:20 por US$ 1,84, com os apps de clima gerados abaixo" />
+        <figcaption>Os dois apps de clima lado a lado: o Inkling já tinha terminado enquanto o Sonnet seguia trabalhando.</figcaption>
       </figure>
       <figure>
-        <img src="2026-11-26/img/capa-iphone-modelos.jpg" alt="Seletor de modelos do Atomic Chat na aba Local, com o Inkling 2 Mini selecionado no formato GGUF AD-IQ1_S, descrito como modelo da Thinking Machines Lab, e o LFM 2.5 Thinking logo abaixo" />
-        <figcaption>No seletor do Atomic Chat, o Inkling 2 Mini aparece como GGUF AD-IQ1_S, a versão de 1 bit.</figcaption>
+        <img src="2026-11-27/img/inkling-strata.jpg" alt="Card do Hugging Face do repositório strata-engine/Inkling-2-Mini-Strata, em fundo degradê azul e laranja" />
+        <figcaption>O pack do Strata no Hugging Face, com versões para placas de 12, 16 e 24 GiB.</figcaption>
       </figure>
     </div>
-
-    <div class="sec">
-      <span class="idx">02</span>
-      <h2>Claude Duet no Brasil</h2>
-      <span class="kicker">o agente proativo da Anthropic abre a lista de espera por aqui</span>
-    </div>
-
-    <section class="lede-grid">
-      <article class="story">
-        <div class="kicker">agentes · Claude Duet · Opus 5.5 · @fabioricotta</div>
-        <h3><a href="https://x.com/fabioricotta/status/2125716262000980326">A lista de espera do Claude Duet abriu para o Brasil, e o convite pode já estar no seu e-mail</a></h3>
-        <p>Fabio Ricotta (@fabioricotta) avisou na noite de quarta que o Claude Duet, o agente proativo que a Anthropic colocou em research preview em outubro só para os Estados Unidos, liberou a lista de espera para Brasil, Índia, Indonésia e Japão nos planos Pro, Max e Ultra. Quem já tinha se inscrito pode ter recebido o acesso; quem ainda não entrou na fila se cadastra pela página do produto, e os convites chegam por e-mail, em ondas. Team e Enterprise continuam de fora por enquanto.</p>
-        <p>O Duet é um app à parte, para iOS, Android e web, com quem você conversa como se fosse uma pessoa, por texto ou por áudio. Ele roda num computador próprio na nuvem, já com a memória, as skills e os connectors da sua conta do Claude, monta um briefing toda manhã a partir do e-mail e da agenda, toca tarefas maiores em background, como um modelo financeiro ou um deck, e pede o seu ok antes de mandar mensagem, fazer pagamento, assinar documento ou apagar qualquer coisa.</p>
-        <p>O lembrete do Ricotta é o que vale guardar antes de ativar: o Duet roda no Opus 5.5, não deixa escolher outro modelo e divide os limites de uso com o resto do Claude, inclusive nas checagens que faz sozinho ao longo do dia. Começar com uma ou duas contas conectadas e acompanhar quanto do plano o briefing consome é a forma mais segura de descobrir se ele cabe na sua rotina.</p>
-        <p class="cta"><a href="https://x.com/fabioricotta/status/2125716262000980326">post do @fabioricotta</a> · <a href="https://claude.com/product/claude-duet">página do Claude Duet</a> · <a href="https://support.claude.com/en/articles/17631495-get-started-with-claude-duet">central de ajuda</a> · <a href="https://claude.com/resources/articles/claude-duet">anúncio de outubro</a></p>
-      </article>
-      <div>
-        <figure>
-          <img style="object-fit: contain; background: #141414" src="2026-11-26/img/duet-icone.jpg" alt="Tela escura com o ícone do Claude Duet, um círculo laranja com um traço preto em espiral, o nome Claude Duet ao lado do selo Research preview e o slogan Get back to what needs you" />
-          <figcaption>O Duet ainda é research preview, com o slogan “Get back to what needs you”.</figcaption>
-        </figure>
-        <figure>
-          <img style="object-fit: contain; background: #f8f7f2" src="2026-11-26/img/duet-paises.jpg" alt="Trecho da página do Claude Duet em fundo claro: Powered by Opus 5.5. Available in Pro, Max, and Ultra plans in the US, India, Indonesia, Brazil &amp; Japan, com os países destacados em amarelo" />
-          <figcaption>A página do produto já lista o Brasil entre os cinco países atendidos.</figcaption>
-        </figure>
-      </div>
-    </section>
 
     <div class="sec">
       <span class="idx">03</span>
       <h2>Radar</h2>
-      <span class="kicker">a Microsoft AI entra no ranking de WebDev com modelo próprio</span>
+      <span class="kicker">uma quantization aberta que mira o MLX de 4 bits</span>
     </div>
     <div class="classifieds radar2">
       <div class="ad span2">
-        <div class="kicker">benchmarks · WebDev · MAI-Code-2.1 · @arena</div>
-        <figure><img style="object-position: center top" src="2026-11-26/img/radar-mai-code.jpg" alt="Ranking Code Arena: WebDev da Arena com o título MAI-Code-2.1 Ranked #13: barras verdes com os modelos e pontuações, liderado por modelos Claude, e a linha do MAI-Code-2.1 destacada em amarelo com 1.717 pontos" /></figure>
-        <h3>O MAI-Code-2.1, da Microsoft AI, estreia em 13º lugar no Code Arena WebDev</h3>
-        <p>O modelo de código da Microsoft AI entrou no ranking de WebDev da Arena com 1.717 pontos, o suficiente para colocar a empresa como o sexto laboratório entre os de fronteira. Ele fica a sete pontos do Muse Wonder Full, da Meta, e à frente do Gemini 4 Hydrogen (xHigh) e do Kimi K3.1 Pro (Max).</p>
-        <p>Nas categorias, aparece em 7º em Fullstack, 8º em Data &amp; Analytics e em Consumer Product e 11º em HTML. O topo segue dominado pelos modelos Claude, mas a estreia mostra a Microsoft disputando essa faixa com um modelo de código feito em casa, e não apenas com os parceiros.</p>
-        <p class="cta"><a href="https://x.com/arena/status/2125638411654508641">post da @arena</a> · <a href="https://arena.ai/leaderboard/webdev">leaderboard de WebDev</a></p>
+        <div class="kicker">quantization · TensorFold · TFQ3 · @LazyLocalLLM · @ashxhart</div>
+        <figure><img style="object-position: left center" src="2026-11-27/img/radar-tfq.jpg" alt="Banner do TFQ, TensorFold Native Quantisation, com o texto Data-free, 3/4/5-bit, Apple silicon, ao lado de uma superfície ondulada em cores neon sobre fundo preto" /></figure>
+        <h3>O TensorFold abriu o TFQ3, uma quantization sem calibração que promete bater o MLX de 4 bits</h3>
+        <p>@ashxhart abriu o código do TFQ, a quantization nativa do TensorFold, e @LazyLocalLLM reuniu os números: o GLM-5.3-Flash, um MoE de 288 experts, cai de 320 GB em FP8 para 130 GiB com perplexidade melhor que a do MLX 4-bit, e o Qwen3.8-Flash-Next vai de 189 GiB para 79 GiB, empatando com a referência de 8 bits. O Qwen3.8-27B fica em 13,2 GiB, com KL divergence 31% menor que a do MLX 4-bit, e carrega em 0,2 segundo.</p>
+        <p>O apelo é dispensar dados de calibração e usar o mesmo checkpoint, sem modificação, no Apple Silicon e em CUDA. Os números ainda vêm do próprio autor e de quem o divulgou, então vale esperar comparações independentes antes de trocar o seu pipeline de quantization.</p>
+        <p class="cta"><a href="https://x.com/LazyLocalLLM/status/2125645962672849007">post do @LazyLocalLLM</a> · <a href="https://x.com/ashxhart/status/2125389504966258962">post do @ashxhart</a> · <a href="https://github.com/ashhart/TFQ">repositório TFQ</a></p>
       </div>
     </div>
 
     <div class="sec">
       <span class="idx">04</span>
       <h2>Hora do Hands-on</h2>
-      <span class="kicker">três testes de dez minutos · pra quinta</span>
+      <span class="kicker">três testes de dez minutos · pra sexta</span>
     </div>
 
     <div class="classifieds handson">
       <div class="ad">
-        <div class="kicker">teste 1 · nvfp4</div>
-        <h3>Suba o Inkling 2 Mini em nvfp4 com um único comando</h3>
-        <p>Atualize o llama.cpp para uma build recente, com brew upgrade llama.cpp ou compilando do main, e rode llama serve -hf ggml-org/Inkling-2-Mini-GGUF:NVFP4. Com o servidor no ar, mande o mesmo prompt de código que você usa para avaliar modelos locais e anote os tok/s que aparecem no log.</p>
+        <div class="kicker">teste 1 · VaultWarden</div>
+        <h3>Suba um VaultWarden de teste em Docker antes de decidir qualquer coisa</h3>
+        <p>Rode <code>docker run -d --name vaultwarden -v ./vw-data:/data -p 8080:80 vaultwarden/server:latest</code> numa máquina de casa ou numa VM e abra localhost:8080. Crie uma conta descartável, aponte a extensão do Bitwarden para esse servidor e anote o que daria trabalho no dia a dia: HTTPS, backup da pasta vw-data e acesso de fora de casa.</p>
       </div>
       <div class="ad">
-        <div class="kicker">teste 2 · Claude Duet</div>
-        <h3>Peça acesso ao Claude Duet e comece só com e-mail e agenda</h3>
-        <p>Entre na página do Claude Duet e se inscreva com o mesmo e-mail da sua conta do Claude, já que o convite fica preso a ele. Quando o acesso chegar, conecte apenas e-mail e agenda, deixe rodar o primeiro briefing da manhã e confira em Settings quanto do limite do plano ele consumiu.</p>
+        <div class="kicker">teste 2 · Ollama</div>
+        <h3>Rode o Inkling 2 Mini no Ollama e ligue no seu harness</h3>
+        <p>Atualize o Ollama, rode <code>ollama run inkling-2-mini</code> e faça uma pergunta curta para baixar o modelo. Depois aponte o seu harness de coding para a API local, em localhost:11434, peça uma tarefa pequena de verdade, como um script com testes, e cronometre o tempo até a entrega.</p>
       </div>
       <div class="ad">
-        <div class="kicker">teste 3 · iPhone</div>
-        <h3>Ponha o Inkling 2 Mini no bolso e teste em modo avião</h3>
-        <p>Instale o Atomic Chat no iPhone, baixe o Inkling 2 Mini na aba Local e faça a ele uma pergunta de trabalho com o aparelho em modo avião. Depois repita a mesma pergunta num modelo da aba Cloud e compare a qualidade da resposta e o tempo até o primeiro token.</p>
+        <div class="kicker">teste 3 · MLX-Serve</div>
+        <h3>Meça o ganho de sessão longa no MLX-Serve v26.11.4</h3>
+        <p>Baixe a release v26.11.4 no GitHub do projeto, carregue o Inkling 2 Mini ou o Gemma 4 e mantenha uma conversa longa de agente. Anote o tempo até o primeiro token numa pergunta de follow-up e compare com a versão anterior, já que a release promete retomar a sessão sem reler a conversa inteira.</p>
       </div>
     </div>
     <footer>
-      <span>ed. 82 · 26 nov 2026 · 6 bookmarks</span>
+      <span>ed. 83 · 27 nov 2026 · 5 bookmarks</span>
       <a class="badge-x" href="https://x.com/clovistx" target="_blank" rel="noopener"><i aria-hidden="true"></i>bookmarks de <b>@clovistx</b></a>
       <label class="ed-nav">
         <span>ed.</span>
         <select data-editions aria-label="Edição">
-            <option value="2026-11-26" selected>82 · 26 nov 2026</option>
+            <option value="2026-11-27" selected>83 · 27 nov 2026</option>
+            <option value="2026-11-26">82 · 26 nov 2026</option>
             <option value="2026-11-25">81 · 25 nov 2026</option>
             <option value="2026-11-24">80 · 24 nov 2026</option>
             <option value="2026-11-23">79 · 23 nov 2026</option>
@@ -356,11 +357,11 @@
     var cur = root.querySelector("[data-listen-cur]");
     var dur = root.querySelector("[data-listen-dur]");
     var state = root.querySelector("[data-listen-state]");
-    var peaks = [100,71,75,75,57,78,61,62,76,59,55,51,62,69,70,74,57,55,61,65,58,72,53,73,71,64,51,50,61,64,56,67,71,42,67,55,54,76,63,52,50,63,55,68,72,64,68,60,53,55,54,67,51,52,54,60,58,61,55,57,60,69,54,57,60,58,61,64,56,53,59,44];
+    var peaks = [93,65,75,76,84,82,67,77,79,70,89,85,82,89,82,64,77,67,82,71,81,89,69,84,78,74,67,89,77,90,72,77,88,66,89,82,70,85,90,70,87,81,86,83,100,90,90,83,75,92,79,69,70,95,77,86,63,83,81,69,82,89,73,68,84,82,92,77,64,90,86,79];
     wave.querySelectorAll(".bars").forEach(function (el) {
       el.innerHTML = peaks.map(function (h) { return '<i style="height:' + h + '%"></i>'; }).join("");
     });
-    var total = 102.43;
+    var total = 121.00;
     function fmt(t) { t = Math.max(0, Math.floor(t)); return Math.floor(t / 60) + ":" + String(t % 60).padStart(2, "0"); }
     function fmtTotal(t) { t = Math.round(t); return Math.floor(t / 60) + ":" + String(t % 60).padStart(2, "0"); }
     function paint(t) {
